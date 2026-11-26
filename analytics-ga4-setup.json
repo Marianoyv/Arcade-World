@@ -1,0 +1,94 @@
+{
+  "status": "PROPERTY_AND_ACTIVE_STREAM_VERIFIED",
+  "measurement_id": "G-WYM8XXKMED",
+  "property_id": "551179002",
+  "property_name": "Arcade World",
+  "active_web_stream": {
+    "stream_id": "15487529013",
+    "measurement_id": "G-WYM8XXKMED",
+    "host_name": "arcade-world.web.app",
+    "verification": "All current 28-day traffic in the property was reported by this stream."
+  },
+  "firebase_linked_stream": {
+    "stream_id": "15730673679",
+    "measurement_id": "G-QPZFZ0239W",
+    "note": "Firebase-linked secondary stream; not used by the deployed site and not selected for migration."
+  },
+  "production_hosts": [
+    "arcade-world.web.app",
+    "arcade-world.firebaseapp.com"
+  ],
+  "enhanced_measurement_recommendation": {
+    "page_views": true,
+    "scrolls": false,
+    "outbound_clicks": false,
+    "site_search": false,
+    "video_engagement": false,
+    "file_downloads": false,
+    "form_interactions": false,
+    "reason": "Arcade World sends filtered first-party equivalents and should avoid duplicate automatic events."
+  },
+  "event_dimensions_recommended": [
+    "app_surface",
+    "page_type",
+    "content_language",
+    "game_title",
+    "game_mode",
+    "game_category",
+    "game_publisher",
+    "filter_name",
+    "filter_value",
+    "article_slug",
+    "content_type",
+    "link_domain",
+    "link_location",
+    "source_name",
+    "core",
+    "platform",
+    "section_id",
+    "control_name",
+    "control_location",
+    "metric_name",
+    "metric_rating",
+    "navigation_type",
+    "video_title",
+    "video_provider",
+    "status"
+  ],
+  "event_metrics_recommended": [
+    "read_percent",
+    "milestone_seconds",
+    "metric_value",
+    "metric_delta",
+    "video_percent",
+    "game_year",
+    "visible_count"
+  ],
+  "audiences_recommended_after_validation": [
+    {
+      "name": "Players",
+      "events_any": ["game_play", "local_rom_loaded"]
+    },
+    {
+      "name": "Favorite intent",
+      "events_any": ["favorite_add"]
+    },
+    {
+      "name": "Engaged readers",
+      "event": "article_engaged_time",
+      "event_parameter": "milestone_seconds",
+      "operator": "GREATER_THAN_OR_EQUAL",
+      "value": 60
+    }
+  ],
+  "key_events": [],
+  "notes": [
+    "Do not mark events as key events until they are verified in Realtime or DebugView.",
+    "A game launch or favorite is an engagement signal, not a purchase or revenue event.",
+    "Do not register metric_id or link_text as custom dimensions.",
+    "Keep Google Signals, advertising storage and ad personalization disabled unless the product purpose changes.",
+    "The property and Firebase-linked stream were verified through the read-only Firebase Management API on 2026-11-25.",
+    "The active production stream was verified through the GA4 Data API and the deployed analytics-config.js; it preserves the existing reporting history.",
+    "Custom definitions, audiences and key events remain pending until product events are observed in Realtime or DebugView."
+  ]
+}

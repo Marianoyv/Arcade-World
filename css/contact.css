@@ -1,11 +1,6 @@
 /* Universal Selectors */
 
-@font-face {
-    font-family: 'Arcade';
-    src: url('/font/ARCADE_N.TTF') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap');
 * {box-sizing: border-box;}
 
 html {
@@ -18,7 +13,7 @@ body {
     line-height: 1.6;
     background-color: #242424;
     color: #fff;
-    font-family: 'Arcade';
+    font-family: 'Chakra Petch', sans-serif;
 }
 a, ul, li {
     list-style: none;
@@ -318,7 +313,7 @@ footer .box-s {
     right: 0;
     top: 0;
   }
-  
+
   .navbar.responsive a {
     float: none;
     display: block;
@@ -440,4 +435,4 @@ footer .box-s {
               transform: translateX(-100px);
     }
   }
-  
+

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Best MAME Arcade Games for Beginners</title>
+  <desc id="desc">Arcade World editorial cover for Arcade lists</desc>
+  <rect width="1200" height="720" fill="#08090d"/>
+  <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M120 0v720M240 0v720M360 0v720M480 0v720M600 0v720M720 0v720M840 0v720M960 0v720M1080 0v720" stroke="#171a25" stroke-width="2"/>
+  <rect x="48" y="48" width="1104" height="624" rx="28" fill="none" stroke="#ff2f7d" stroke-width="6"/>
+  <rect x="80" y="82" width="520" height="54" rx="27" fill="#ff2f7d"/>
+  <text x="108" y="120" fill="#08090d" font-family="monospace" font-size="25" font-weight="700">ARCADE WORLD // ARCADE LISTS</text>
+  <circle cx="1065" cy="263" r="8" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="1072" cy="546" r="12" fill="#22d3ee" opacity=".55"/>
+  <circle cx="1076" cy="349" r="16" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="1078" cy="152" r="8" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="899" cy="435" r="12" fill="#22d3ee" opacity=".55"/>
+  <circle cx="989" cy="238" r="16" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="854" cy="297" r="8" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="967" cy="580" r="12" fill="#22d3ee" opacity=".55"/>
+  <circle cx="870" cy="342" r="150" fill="none" stroke="#ff2f7d" stroke-width="18"/>
+  <circle cx="870" cy="342" r="72" fill="#22d3ee"/>
+  <path d="M870 166v352M694 342h352" stroke="#08090d" stroke-width="24"/>
+  <rect x="80" y="184" width="86" height="12" fill="#22d3ee"/>
+  <text x="80" y="300" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">BEST MAME</text>
+  <text x="80" y="370" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">ARCADE GAMES</text>
+  <text x="80" y="440" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">FOR BEGINNERS</text>
+  <text x="82" y="626" fill="#b8bed2" font-family="monospace" font-size="24">GUIDES · CULTURE · PRESERVATION</text>
+</svg>

@@ -4,137 +4,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/games.css">
-    <link rel="icon" type="image/png" href="Img/favcoin.png"/>
-    <title>Games</title>
-    <meta name="description" content="Juegos Arcade en Stream, proyecto de codo a codo, comision 22511 (G-8)">
+    <link rel="stylesheet" href="/css/games.css?v=4">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" type="image/png" href="img/favcoin.png">
+    <title>Game Room | 51 Arcade and Console Games</title>
+    <meta name="description" content="Browse, search and launch 51 arcade and console games, including Pac-Man, Galaga, Metal Slug and Mercenaries 2.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arcade-world.web.app/games.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Game Room | 51 Arcade and Console Games">
+    <meta property="og:description" content="Search by genre and launch classic arcade games from a retro browser cabinet.">
+    <meta property="og:url" content="https://arcade-world.web.app/games.html">
+    <meta property="og:image" content="https://arcade-world.web.app/img/gamesbg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Game Room | 51 Arcade and Console Games">
+    <meta name="twitter:description" content="A searchable arcade and console catalog with browser and desktop launcher modes.">
+    <meta name="theme-color" content="#08090d">
     <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Arcade World Game Room",
+            "url": "https://arcade-world.web.app/games.html",
+            "description": "A searchable catalog of 51 arcade and console games with browser and desktop launcher modes.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "Arcade World",
+                "url": "https://arcade-world.web.app/"
+            }
+        }
+    </script>
 </head>
 <body>
-   <!--Navbar-->
-   <div class="navbar" id="nav">
-    <a href="index.html" class="logo"><img src="img/coin.png" alt="insercoin">Insert<br>Coin</a>
-    <a href="help.html">HELP</a>
-    <a href="contact.html">CONTACT</a>
-    <a href="about.html">ABOUT</a>
-    <a href="games.html">GAMES</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunc()">
-    <i class="fa fa-bars"></i></a>
-</div>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="help.html">HELP</a>
+        <a href="freeplay.html">FREEPLAY</a>
+        <a href="library.html">LIBRARY</a>
+        <a href="blog.html">BLOG</a>
+        <a href="games.html">GAMES</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
 
-<script>
-function myFunc() { 
-    var menu = document.getElementById("nav");
-if (menu.className === "navbar") {
-    menu.className += " responsive";
-  } else {
-    menu.className = "navbar";}
-}
-</script>
+    <main>
+        <section class="game-room-hero">
+            <div>
+                <p class="eyebrow">Game room</p>
+                <h1>Choose your cabinet</h1>
+                <p>Search, filter and launch classic arcade sessions from one focused room.</p>
+            </div>
+            <div class="room-stats" aria-label="Game room stats">
+                <span><strong id="gameCount">0</strong> Games</span>
+                <span><strong id="genreCount">0</strong> Genres</span>
+                <span>Free Play</span>
+            </div>
+        </section>
 
-    <!--Header-->
+        <section class="game-tools" aria-label="Game filters">
+            <label class="search-box">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input id="gameSearch" type="search" placeholder="Search games" autocomplete="off">
+            </label>
+            <select id="decadeFilter" class="tool-select" aria-label="Filter by decade">
+                <option value="all">All years</option>
+            </select>
+            <select id="modeFilter" class="tool-select" aria-label="Filter by play mode">
+                <option value="all">All modes</option>
+                <option value="own">Own player</option>
+                <option value="external">External provider</option>
+            </select>
+            <select id="sortFilter" class="tool-select" aria-label="Sort games">
+                <option value="title">Sort: A-Z</option>
+                <option value="year-desc">Newest first</option>
+                <option value="year-asc">Oldest first</option>
+                <option value="publisher">Publisher</option>
+            </select>
+            <div class="tool-actions" aria-label="Game library actions">
+                <a class="import-link" href="freeplay.html">Freeplay</a>
+                <a class="import-link" href="library.html">My Library</a>
+                <a class="import-link" href="player.html?local=1">Import ROM</a>
+            </div>
+            <div class="filter-buttons" id="gameFilters"></div>
+        </section>
 
-    <div class="games-head">
-    </div>    
-        <div class="gtext">
-        <h2>Enjoy our game galery</h2>
-        <h3>Arcade section</h3>
-    </div>  
+        <section class="catalog-note">
+            <strong>Catalog status:</strong> browser classics can use external providers. Console games use the desktop app, an official emulator and a legitimate local dump.
+        </section>
 
-    <!-- Content -->
-    
-    <div class="gcont">
-        <div class="gcard" data-tilt data-tilt-full-page-listening data-tilt-glare data-tilt-max-glare="0.3">
-            <img src="/img/games/atariberzerk.png" alt="">
-            <div class="gdesc">
-                <p>Game number 666</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
-        <div class="gcard" data-tilt data-tilt-full-page-listening data-tilt-glare data-tilt-max-glare="0.3">
-            <img src="/img/games/Centipede.jpg" alt="">
-            <div class="gdesc">
-                <p>Game number 666</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
-        <div class="gcard" data-tilt data-tilt-full-page-listening data-tilt-glare data-tilt-max-glare="0.3">
-            <img src="/img/games/lunar.jpg" alt="">
-            <div class="gdesc">
-                <p>Game number 666</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
-        <div class="gcard" data-tilt data-tilt-full-page-listening data-tilt-glare data-tilt-max-glare="0.3">
-            <img src="/img/games/Tempest.png" alt="">
-            <div class="gdesc">
-                <p>Game number 666</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
-        <div class="gcard" data-tilt data-tilt-full-page-listening data-tilt-glare data-tilt-max-glare="0.3">
-            <img src="/img/games/lunar.jpg" alt="">
-            <div class="gdesc">
-                <p>Game number 666</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
-        <div class="gcard" data-tilt data-tilt-full-page-listening data-tilt-glare data-tilt-max-glare="0.3">
-            <img src="/img/games/Centipede.jpg" alt="">
-            <div class="gdesc">
-                <p>Game number 666</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
+        <section class="game-grid" id="gameGrid" aria-live="polite"></section>
 
-    <!--Footer-->
+        <p class="empty-state" id="emptyState" hidden>No games match that search.</p>
+
+        <section class="player" id="player">
+            <div class="player-copy">
+                <p class="eyebrow">Live cabinet</p>
+                <h2 id="playerTitle">Choose a game</h2>
+                <p class="player-meta" id="playerMeta">External iframe mode</p>
+                <p id="playerDescription">External games may show provider ads. Games with local ROMs can run through the Arcade World EmulatorJS player instead.</p>
+                <a class="source-link" id="playerSource" href="player.html" target="_blank" rel="noopener">Own player</a>
+            </div>
+            <div class="player-screen">
+                <div class="player-placeholder" id="playerPlaceholder">
+                    <strong>Ready when you press Play</strong>
+                    <span>No external game iframe is loaded yet.</span>
+                </div>
+                <iframe id="gamePlayer" title="Arcade emulator" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen hidden></iframe>
+            </div>
+        </section>
+            <section class="seo-game-links" aria-label="Indexed category pages">
+            <h2>Browse by arcade genre</h2>
+            <div>
+                <!-- SEO_CATEGORY_LINKS_START -->
+                <a href="categories/action-games.html">Action games</a>
+                <a href="categories/fighting-games.html">Fighting games</a>
+                <a href="categories/maze-games.html">Maze games</a>
+                <a href="categories/platform-games.html">Platform games</a>
+                <a href="categories/puzzle-games.html">Puzzle games</a>
+                <a href="categories/shooter-games.html">Shooter games</a>
+                <a href="categories/space-games.html">Space games</a>
+                <a href="categories/sports-games.html">Sports games</a>
+<!-- SEO_CATEGORY_LINKS_END -->
+            </div>
+        </section>
+
+        <section class="seo-game-links" aria-label="Indexed game pages">
+            <h2>Indexed arcade game pages</h2>
+            <div>
+                <!-- SEO_GAME_LINKS_START -->
+                <a href="games/88-games.html">88 Games</a>
+                <a href="games/pac-man.html">Pac-Man</a>
+                <a href="games/pac-man-plus.html">Pac-Man Plus</a>
+                <a href="games/ms-pac-man.html">Ms. Pac-Man</a>
+                <a href="games/galaga.html">Galaga</a>
+                <a href="games/galaga-88.html">Galaga 88</a>
+                <a href="games/space-invaders.html">Space Invaders</a>
+                <a href="games/moon-cresta.html">Moon Cresta</a>
+                <a href="games/lunar-rescue.html">Lunar Rescue</a>
+                <a href="games/donkey-kong.html">Donkey Kong</a>
+                <a href="games/donkey-kong-junior.html">Donkey Kong Junior</a>
+                <a href="games/mario-bros.html">Mario Bros.</a>
+                <a href="games/frogger.html">Frogger</a>
+                <a href="games/dig-dug.html">Dig Dug</a>
+                <a href="games/mappy.html">Mappy</a>
+                <a href="games/xevious.html">Xevious</a>
+                <a href="games/popeye.html">Popeye</a>
+                <a href="games/q-bert.html">Q*bert</a>
+                <a href="games/bubble-bobble.html">Bubble Bobble</a>
+                <a href="games/burgertime.html">BurgerTime</a>
+                <a href="games/mr-do.html">Mr. Do!</a>
+                <a href="games/bomb-jack.html">Bomb Jack</a>
+                <a href="games/snow-bros.html">Snow Bros.</a>
+                <a href="games/arkanoid.html">Arkanoid</a>
+                <a href="games/puzzle-bobble.html">Puzzle Bobble</a>
+                <a href="games/tetris.html">Tetris</a>
+                <a href="games/tempest.html">Tempest</a>
+                <a href="games/centipede.html">Centipede</a>
+                <a href="games/missile-command.html">Missile Command</a>
+                <a href="games/asteroids.html">Asteroids</a>
+                <a href="games/defender.html">Defender</a>
+                <a href="games/joust.html">Joust</a>
+                <a href="games/paperboy.html">Paperboy</a>
+                <a href="games/rampage.html">Rampage</a>
+                <a href="games/gauntlet.html">Gauntlet</a>
+                <a href="games/golden-axe.html">Golden Axe</a>
+                <a href="games/final-fight.html">Final Fight</a>
+                <a href="games/captain-commando.html">Captain Commando</a>
+                <a href="games/cadillacs-and-dinosaurs.html">Cadillacs &amp; Dinosaurs</a>
+                <a href="games/the-punisher.html">The Punisher</a>
+                <a href="games/the-simpsons.html">The Simpsons</a>
+                <a href="games/tmnt.html">TMNT</a>
+                <a href="games/tmnt-turtles-in-time.html">TMNT: Turtles in Time</a>
+                <a href="games/x-men.html">X-Men</a>
+                <a href="games/sunset-riders.html">Sunset Riders</a>
+                <a href="games/metal-slug.html">Metal Slug</a>
+                <a href="games/metal-slug-2.html">Metal Slug 2</a>
+                <a href="games/street-fighter-ii.html">Street Fighter II</a>
+                <a href="games/mortal-kombat.html">Mortal Kombat</a>
+                <a href="games/marvel-vs-capcom.html">Marvel vs Capcom</a>
+                <a href="games/mercenaries-2-world-in-flames.html">Mercenaries 2: World in Flames</a>
+<!-- SEO_GAME_LINKS_END -->
+            </div>
+        </section>
+    </main>
 
     <footer class="pie-pagina">
-        <div class ="grupo">
-            <div class = "box">
-                    <a href="index.html"><img src="img/logo.png" alt="coin"></a>
+        <div class="grupo">
+            <div class="box">
+                <a href="index.html"><img src="img/logo.png" alt="Insert Coin"></a>
             </div>
-            <div class ="box sobren">
+            <div class="box sobren">
                 <h2>Sobre nosotros</h2>
-                <p>Arcade World is the game land of the best exclusive games for you! 
-                    It is free you can play at anytime
-                </p>
+                <p>Arcade World is a free browser arcade for quick retro sessions, favorite classics and high score chasers.</p>
             </div>
             <div class="box">
                 <h2>Encuentranos en</h2>
                 <div class="red-social">
-                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                    <a href="https://twitter.com" class="fa fa-twitter"></a>
-                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook" aria-label="Facebook"></a>
+                    <a href="https://www.instagram.com" class="fa fa-instagram" aria-label="Instagram"></a>
+                    <a href="https://twitter.com" class="fa fa-twitter" aria-label="Twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube" aria-label="YouTube"></a>
                 </div>
             </div>
             <div class="box-s">
-            <small>&copy; 2022 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
+                <small>&copy; 2026 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script src="main.js"></script>
-    
+    <script src="data/games-data.js"></script>
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
+    <script src="main.js?v=7"></script>
 </body>
 </html>

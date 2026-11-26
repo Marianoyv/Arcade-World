@@ -1,0 +1,77 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "rs4-new-runescape-mmo-announced",
+    "title": "Jagex Announces RS4, a New RuneScape MMO Built in Unreal Engine",
+    "shortTitle": "Jagex Announces New RuneScape MMO RS4",
+    "category": "Industry",
+    "publishedAt": "2026-10-04T12:15:35-03:00",
+    "modifiedAt": "2026-10-04T12:15:35-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Jagex has revealed RS4, an independent RuneScape MMORPG built in Unreal Engine that begins in Ashenfall and remains a few years from release.",
+    "quickTake": "RS4 is a new, standalone RuneScape MMO in early development, not an update that replaces RuneScape, Old School RuneScape, or Dragonwilds.",
+    "whyCare": "The announcement starts a long community-development process, but Jagex has not confirmed platforms, account links, membership terms, combat, skills, or a release window beyond saying the game is a few years away.",
+    "playerMove": "Keep playing or spending only on today's RuneScape games for what they offer now; do not buy hardware, subscriptions, or in-game items based on assumptions about RS4.",
+    "image": "img/blog/rs4-new-runescape-mmo-announced.png",
+    "imageAlt": "Four anonymous adventurers overlook a vast fantasy valley of ruins, branching paths, glowing portals, and distant volcanic peaks.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "RS4",
+        "new RuneScape MMO",
+        "RuneScape 4",
+        "Jagex",
+        "Unreal Engine MMO",
+        "Gielinor",
+        "Ashenfall",
+        "RuneFest 2026"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Jagex announced at RuneFest on October 3, 2026 that a fourth-generation RuneScape MMORPG is in development under the working title RS4. The project is being built in Unreal Engine, takes place in Gielinor during the Sixth Age, and starts in Ashenfall, the region introduced in RuneScape: Dragonwilds. Gematsu and GamesRadar independently confirmed the announcement and its central details.",
+                "Jagex describes RS4 as an independent experience that will sit alongside RuneScape, Old School RuneScape, and Dragonwilds. The company explicitly says it is not replacing those games and says each retains its own team, roadmap, and investment. That is a company commitment, not proof of how support levels may change over the several years before RS4 arrives."
+            ]
+        },
+        {
+            "title": "What Jagex has confirmed — and what it has not",
+            "paragraphs": [
+                "Confirmed details are deliberately narrow. RS4 is a new MMO rather than an expansion, uses Unreal Engine, begins in a changed Ashenfall years after the events of Dragonwilds, and is intended to expand into familiar and new areas of Gielinor over time. Jagex says integrity, permanent progression, and community-led development are design principles, and it plans to explain how players can participate in development next year.",
+                "Jagex has not announced platforms, a final name, a release date, account or character transfers, membership and pricing rules, combat, skills, system requirements, or testing dates. It only says the game is a few years away. Claims that current characters will move to RS4, that one existing RuneScape version will close, or that a specific console release is guaranteed are therefore speculation, not confirmed news."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "The useful part of this reveal is not the temporary RS4 label but the decision to build a separate modern MMO instead of presenting it as a direct conversion of the current game. That gives Jagex room to redesign technology and onboarding without silently promising that 25 years of accounts, economies, and content can move intact. It also creates a real risk of confusion if players treat a distant project as an immediate migration plan.",
+                "For current players, Jagex's no-replacement statement is the only defensible guide today. Future investment may still shift as development grows, but no shutdown, forced transfer, or shared subscription has been announced. Arcade World will treat those questions as open until Jagex publishes operational details rather than extrapolating from the concept trailer."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Jagex says it will share more in 2027 about the world, the game, the team, and how the community can get involved. The first meaningful checkpoints will be a final title, supported platforms, account and membership policies, progression rules, and a playable test. Until then, the official interest registration is a feedback channel, not a preorder or launch commitment.",
+                "Players should judge RuneScape, Old School RuneScape, and Dragonwilds by their published roadmaps and current value rather than assuming RS4 changes them today. If you are considering new hardware or a long subscription, wait for named platforms and commercial terms. Arcade World's related industry coverage below can help track broader platform changes while the project remains in early development."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Jagex — We're working on a new RuneScape MMO, October 3, 2026",
+            "url": "https://play.runescape.com/4"
+        },
+        {
+            "label": "Gematsu — New RuneScape MMO 'RS4' announced, October 3, 2026",
+            "url": "https://www.gematsu.com/2026/10/new-runescape-mmo-rs4-announced"
+        },
+        {
+            "label": "GamesRadar — Jagex announces a fourth RuneScape MMO, October 4, 2026",
+            "url": "https://www.gamesradar.com/games/mmo/jagex-announces-a-fourth-runescape-mmo-made-in-unreal-engine-but-rs4-is-not-a-replacement-for-any-of-our-games/"
+        }
+    ]
+}

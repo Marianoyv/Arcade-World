@@ -1,0 +1,6 @@
+{
+  "ga4_property_id": "123456789",
+  "search_console_site_url": "https://arcade-world.web.app/",
+  "credentials_path": "credentials/analytics-reader.json",
+  "python_path": "python"
+}

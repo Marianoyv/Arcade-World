@@ -1,0 +1,74 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "xbox-will-publish-kojima-productions-physint-after-playstation-steps-away",
+    "title": "Xbox Will Publish Kojima Productions' PHYSINT After PlayStation Steps Away",
+    "shortTitle": "Xbox Takes Over Publishing PHYSINT",
+    "category": "Industry",
+    "publishedAt": "2026-09-10T18:34:09-03:00",
+    "modifiedAt": "2026-09-10T18:34:09-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Xbox will publish Kojima Productions' PHYSINT after PlayStation stepped away, but platforms and a release window remain unconfirmed.",
+    "quickTake": "Xbox and Kojima Productions confirmed that development of PHYSINT will continue under an expanded partnership that also covers film and television projects.",
+    "whyCare": "The publisher change keeps Kojima's action-espionage project alive, but players should no longer assume the previously announced PlayStation release plan still applies.",
+    "playerMove": "Wait for an official platform list, release window and gameplay before buying hardware or treating PHYSINT as an Xbox exclusive.",
+    "image": "img/blog/xbox-will-publish-kojima-productions-physint-after-playstation-steps-away.png",
+    "imageAlt": "A covert operative stands between converging blue-lit paths in a futuristic city, suggesting a change of direction for an espionage game.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "PHYSINT",
+        "Kojima Productions",
+        "Xbox Game Studios",
+        "PlayStation Studios",
+        "action espionage game"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Xbox announced on September 9, 2026 that it will work with Kojima Productions on PHYSINT, expanding a relationship that already includes the horror project OD. Kojima Productions separately confirmed on September 10 that Xbox is the action-espionage game's new partner and that development is continuing.",
+                "The companies also said their expanded relationship will extend to film and television. Neither official announcement named release platforms, a launch window, pricing or an exclusivity plan, so those details remain unconfirmed."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "PHYSINT was originally announced in 2024 as a PlayStation Studios collaboration. VGC independently reported that PlayStation has now confirmed its decision to step away, while Hideo Kojima said his studio had spent roughly three months looking for a new partner after receiving notice in mid-June that PlayStation intended to cancel the project.",
+                "For players, the immediate result is continuity rather than a release date: the game remains in development instead of disappearing with the previous publishing arrangement. The trade-off is new uncertainty around where it will launch. Xbox publishing makes Xbox consoles and Windows plausible destinations, but the current statements do not confirm either one and do not rule other platforms in or out."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "The meaningful news is not that PHYSINT suddenly has a finished shape; it is that the project survived a publisher exit. That matters for a game presented as Kojima's return to action espionage, but a publishing rescue should not be mistaken for a near-term release or a platform promise.",
+                "The film-and-television language also fits PHYSINT's long-stated ambition to cross the boundary between games and cinema. For now, however, that is a partnership direction rather than a list of announced productions. The player-friendly reading is therefore cautious: the creative project continues, while almost every purchase-relevant detail is still open."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Xbox says it will share more as development progresses. The next useful announcement needs to answer basic questions: confirmed platforms, whether the game is exclusive, a release window, and the first substantial gameplay demonstration.",
+                "Until those details arrive, players should avoid planning a console purchase around PHYSINT. Watch official Xbox and Kojima Productions channels for concrete information, and treat claims about launch timing or platform availability as speculation unless they appear in a new statement or store listing."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Kojima Productions — Xbox confirmed as new partner for PHYSINT",
+            "url": "https://www.kojimaproductions.jp/en/xbox_partnership_announcement"
+        },
+        {
+            "label": "Xbox Wire — Xbox and Kojima Productions expand partnership to publish PHYSINT",
+            "url": "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint/"
+        },
+        {
+            "label": "VGC — PHYSINT moves from PlayStation to Xbox publishing",
+            "url": "https://www.videogameschronicle.com/news/hideo-kojimas-physint-has-jumped-from-playstation-to-xbox-after-kojima-says-sony-tried-to-cancel-it/"
+        }
+    ]
+}

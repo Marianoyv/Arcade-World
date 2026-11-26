@@ -2,97 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/contact.css">
-    <link rel="icon" type="image/png" href="Img/favcoin.png"/>
-    <title>Contact</title>
-    <meta name="description" content="Juegos Arcade en Stream, proyecto de codo a codo, comision 22511 (G-8)">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/css/detail.css">
+    <link rel="stylesheet" href="/css/support.css">
+    <link rel="icon" type="image/png" href="/img/favcoin.png">
+    <title>Contact Arcade World | Player Support and Creator Submissions</title>
+    <meta name="description" content="Contact Arcade World about player support, game corrections, creator-approved homebrew submissions, partnerships and content rights.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arcade-world.web.app/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact Arcade World">
+    <meta property="og:description" content="Player support, creator submissions, catalog corrections and rights requests.">
+    <meta property="og:url" content="https://arcade-world.web.app/contact.html">
+    <meta property="og:image" content="https://arcade-world.web.app/img/gamesbg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#08090d">
     <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
-    <script defer src="main.js"></script>
 </head>
 <body>
-
-    <!--Navbar-->
-    <div class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="insercoin">Insert<br>Coin</a>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
         <a href="help.html">HELP</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="about.html">ABOUT</a>
+        <a href="freeplay.html">FREEPLAY</a>
+        <a href="library.html">LIBRARY</a>
+        <a href="blog.html">BLOG</a>
         <a href="games.html">GAMES</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunc()">
-        <i class="fa fa-bars"></i></a>
-</div>
-  
-  <script>
-    function myFunc() { 
-        var menu = document.getElementById("nav");
-    if (menu.className === "navbar") {
-        menu.className += " responsive";
-      } else {
-        menu.className = "navbar";}
-    }
-    </script>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><i class="fa fa-bars"></i></a>
+    </nav>
 
-    <!--Header-->
-    <div class="letter">
-        <div class="present">
-            <h3>Take the game to another level</h3>
-        </div>
-    <div class="contact">
-        <h3>Get in Touch</h3>
-        <div class="alert">Your message has been sent</div>
-        <form action="https://formspree.io/f/mvoywgla"
-        method="POST" id="contactForm">
-          <p>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="firstname" placeholder="Your name.." required>
-          </p>
-          <p>
-            <label for="User">User Name</label>
-            <input type="text" name="User" id="User" placeholder="Choice a user id..">
-          </p>
-          <p>
-            <label>Email Address</label>
-            <input type="email" name="email" id="email" placeholder="Your email address.." required>
-          </p>
-          <p>
-            <label>Message</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
-
-            <button type="submit" value="Submit" class="ctc"><p>Submit</p></button>
-            </form>
-        </div>
-    </div>
-
-
- <!--Footer-->
-
- <footer class="pie-pagina">
-    <div class ="grupo">
-        <div class = "box">
-                <a href="index.html"><img src="img/logo.png" alt="coin"></a>
-        </div>
-        <div class ="box sobren">
-            <h2>Sobre nosotros</h2>
-            <p>Arcade World is the game land of the best exclusive games for you! 
-                It is free you can play at anytime
-            </p>
-        </div>
-        <div class="box">
-            <h2>Encuentranos en</h2>
-            <div class="red-social">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                <a href="https://twitter.com" class="fa fa-twitter"></a>
-                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <main>
+        <section class="support-hero panel contact-hero">
+            <div>
+                <p class="eyebrow">Contact Arcade World</p>
+                <h1>Send the useful details.</h1>
+                <p>Report a broken player, correct a game page, submit an approved homebrew release or contact us about rights. Please do not send ROM files.</p>
             </div>
-        </div>
-        <div class="box-s">
-        <small>&copy; 2022 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
-        </div>
-    </div>
-</footer>
-    <script src="main.js"></script>
+            <div class="status-card">
+                <span>Before sending</span>
+                <strong>Include the exact page or game</strong>
+                <small>Device and browser details help with bugs.</small>
+            </div>
+        </section>
+
+        <section class="contact-layout">
+            <form class="contact-form panel" action="https://formspree.io/f/mvoywgla" method="POST" id="contactForm">
+                <input type="hidden" name="_subject" value="New Arcade World message">
+                <div class="form-heading"><p class="eyebrow">Message</p><h2>What can we help with?</h2></div>
+                <div class="field-row">
+                    <label for="name">Name<input type="text" id="name" name="name" autocomplete="name" required></label>
+                    <label for="email">Email<input type="email" id="email" name="email" autocomplete="email" required></label>
+                </div>
+                <label for="topic">Topic
+                    <select id="topic" name="topic">
+                        <option>Player support</option>
+                        <option>Broken link or game data</option>
+                        <option>Homebrew submission</option>
+                        <option>Creator or partnership</option>
+                        <option>Rights or removal request</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+                <label for="pageUrl">Page or game URL<input type="url" id="pageUrl" name="page_url" placeholder="https://arcade-world.web.app/..."></label>
+                <label for="subject">Message<textarea id="subject" name="message" rows="7" placeholder="What happened, what did you expect, and what device are you using?" required></textarea></label>
+                <p class="form-note">Do not attach or link copyrighted ROM files, passwords or private account data.</p>
+                <button class="button submit-button" type="submit">Send message</button>
+            </form>
+
+            <aside class="contact-options">
+                <div class="link-card"><h2>Fast player help</h2><p>Most ROM, controller, save and external-player questions already have a short answer.</p><a href="help.html">Check Help first</a></div>
+                <div class="link-card"><h2>Creator submission</h2><p>Prepare the title, official URL, platform, screenshots and a clear permission or license note.</p><a href="submit-game.html">Submission checklist</a></div>
+                <div class="link-card"><h2>Rights request</h2><p>Include the affected URL, the work involved and how you represent the rights holder.</p><a href="dmca.html">Content policy</a></div>
+            </aside>
+        </section>
+    </main>
+
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
+    <script src="main.js?v=6"></script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#090a10"/>
+  <rect x="120" y="170" width="960" height="430" rx="30" fill="#11131d" stroke="#30364a" stroke-width="6"/>
+  <g fill="#c8ff4d"><rect x="170" y="230" width="150" height="110"/><rect x="350" y="230" width="150" height="110"/><rect x="530" y="230" width="150" height="110"/></g>
+  <g fill="#ff2f7d"><rect x="710" y="230" width="150" height="110"/><rect x="890" y="230" width="150" height="110"/></g>
+  <path d="M195 455h810" stroke="#22d3ee" stroke-width="12"/>
+  <path d="M195 515h520" stroke="#ffbd3d" stroke-width="12"/>
+  <text x="80" y="110" fill="#f7f7fb" font-family="monospace" font-size="70" font-weight="700">FRESH DROPS</text>
+  <text x="82" y="164" fill="#b8bed2" font-family="monospace" font-size="30">static catalogs do not bring players back</text>
+</svg>

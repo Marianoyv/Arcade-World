@@ -1,0 +1,82 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "gears-of-war-e-day-launches-xbox-pc-game-pass",
+    "title": "Gears of War: E-Day Launches on Xbox and PC With Game Pass Access",
+    "shortTitle": "Gears of War: E-Day Is Out Now",
+    "category": "Industry",
+    "publishedAt": "2026-10-07T10:31:30-03:00",
+    "modifiedAt": "2026-10-07T10:31:30-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Gears of War: E-Day is now available on Xbox Series X|S and PC, with launch access through Game Pass Ultimate and PC Game Pass.",
+    "quickTake": "Microsoft and The Coalition launched Gears of War: E-Day worldwide on October 6 for Xbox Series X|S, the Xbox PC app and Steam, with cloud play and Game Pass access on eligible plans.",
+    "whyCare": "Players can try the new campaign and multiplayer through Game Pass instead of buying the $69.99 Standard Edition, while PC players now have independent benchmark data to guide their settings.",
+    "playerMove": "If you already have Game Pass Ultimate or PC Game Pass, try the launch build before buying it; on PC, run the built-in benchmark and use upscaling before considering a hardware upgrade.",
+    "image": "img/blog/gears-of-war-e-day-launches-xbox-pc-game-pass.png",
+    "imageAlt": "Two armored soldiers look across a ruined futuristic city split by glowing fissures at dusk.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "Gears of War E-Day",
+        "Xbox Series X|S",
+        "PC gaming",
+        "Xbox Game Pass",
+        "The Coalition"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Gears of War: E-Day launched worldwide on October 6, 2026 at 8:00 a.m. PT / 15:00 UTC. Xbox lists the game for Xbox Series X|S and Windows PC through the Xbox app and Steam, with cloud play through Game Pass Ultimate and GeForce NOW. Game Pass Ultimate and PC Game Pass members received launch-day access.",
+                "The official store lists the Standard Edition at $69.99 and the Premium Edition at $99.99 in the United States. Xbox Play Anywhere supports shared progression and achievements between Xbox consoles and the Xbox PC version. The current official platform list does not include PlayStation 5; Microsoft has not announced whether that will change later."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "The launch offers several ways to play, but they are not identical. Xbox says the campaign can be played solo, with two-player split-screen on console, or online, while Horde Siege and Versus provide additional multiplayer options. On console, online multiplayer requires a Game Pass tier that includes online multiplayer; split-screen is available only on console.",
+                "PC performance is more encouraging than the game's high-end visuals may suggest, based on independent testing rather than a publisher promise. TechSpot tested 44 graphics cards and found roughly 60 frames per second at 1080p Ultra on hardware including the RTX 3080, RTX 4070, RX 7800 XT and newer midrange cards. Native 1440p and especially native 4K were much more demanding, while Balanced or Performance upscaling substantially improved results. Individual systems and future patches can produce different numbers."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "This is a better try-before-you-buy launch than the headline price suggests. Game Pass removes much of the risk for subscribers, and the built-in PC benchmark gives players a practical way to test performance before committing to long sessions or new hardware. The useful decision is not whether every review agrees; it is whether the access route and performance profile fit your setup.",
+                "Independent opinion is not unanimous. PC Gamer scored the game 77, praising the cover-based combat and multiplayer while arguing that the campaign becomes repetitive. That is a review judgment, not a settled fact, but it reinforces the case for sampling the game through a subscription if one is already active instead of treating launch excitement as a reason to spend $69.99 immediately."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "The Coalition is directing technical problems to its support and service-status pages. The Premium Edition also promises five seasonal customization packs, beginning with the Emergence Pack at launch, so post-launch support and any balance or performance patches are the next concrete items to watch.",
+                "For now, players should treat Xbox Series X|S, Xbox PC, Steam, cloud play and the named Game Pass tiers as the confirmed availability. Any claim about a future PlayStation version, major expansion or long-term content schedule remains unconfirmed until Microsoft or The Coalition announces it."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Xbox Wire — Gears of War: E-Day worldwide launch guide",
+            "url": "https://news.xbox.com/en-us/2026/10/06/gears-of-war-e-day-global-launch-tips-guide/"
+        },
+        {
+            "label": "Xbox — Gears of War: E-Day editions, platforms and Game Pass details",
+            "url": "https://www.xbox.com/en-US/games/gears-of-war-eday"
+        },
+        {
+            "label": "Xbox Wire — launch timing and cloud availability",
+            "url": "https://news.xbox.com/en-us/2026/10/01/gears-of-war-e-day-early-access-launch-trailer-xbox/"
+        },
+        {
+            "label": "PC Gamer — Gears of War: E-Day review",
+            "url": "https://www.pcgamer.com/games/third-person-shooter/gears-of-war-e-day-review/"
+        },
+        {
+            "label": "TechSpot — Gears of War: E-Day benchmark across 44 GPUs",
+            "url": "https://www.techspot.com/review/3182-gears-of-war-e-day-benchmarks/"
+        }
+    ]
+}

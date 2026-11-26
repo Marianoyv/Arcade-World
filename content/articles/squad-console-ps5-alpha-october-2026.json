@@ -1,0 +1,79 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "squad-console-ps5-alpha-october-2026",
+    "title": "Squad Is Coming to PS5 and Xbox Series as a Free PS5 Alpha Begins October 16",
+    "shortTitle": "Squad Console Versions Announced",
+    "category": "Industry",
+    "publishedAt": "2026-10-16T10:12:00-03:00",
+    "modifiedAt": "2026-10-16T10:12:00-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Offworld is bringing Squad to PS5 and Xbox Series in 2027, with a free PS5 alpha running October 16-25 and opt-in console crossplay.",
+    "quickTake": "Squad Console Edition is planned for PS5 and Xbox Series X|S in 2027, while PS5 players can download a free technical alpha from October 16 through October 25.",
+    "whyCare": "The console release keeps Squad's 100-player battles, voice communication, server browser and community servers, but it will not support cross-progression, shared purchases or mouse and keyboard at launch.",
+    "playerMove": "PS5 owners interested in the game should try the free alpha before October 25; everyone else should wait for final performance, pricing and launch details before committing.",
+    "image": "img/blog/squad-console-ps5-alpha-october-2026.png",
+    "imageAlt": "Two anonymous soldiers surveying a large combined-arms battlefield from a ridge as armored vehicles move below.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "Squad Console Edition",
+        "Squad PS5 alpha",
+        "Squad Xbox Series",
+        "Offworld Industries",
+        "console crossplay",
+        "tactical shooter"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Offworld Industries announced on October 15 that Squad Console Edition is coming to PlayStation 5, Xbox Series X and Xbox Series S in 2027. A free PlayStation 5 technical alpha runs from October 16 through October 25, with the download available from the official alpha page. Gematsu independently confirmed the platforms, release year and test dates.",
+                "The alpha uses the Gorodok map and places the Armed Forces of Ukraine against the People's Liberation Army. It is an early test, not the finished console release. Offworld has not announced an exact launch date, price or subscription availability, and Xbox players do not currently have an equivalent public test date."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "The console version is intended to preserve Squad's defining scale rather than become a smaller spin-off. Offworld says player-versus-player matches will support up to 100 players, while the Fireteam cooperative mode will support five. Console players will get proximity, squad and command voice chat, a server browser, official dedicated servers and community-hosted servers.",
+                "Crossplay is more limited than a single universal matchmaking pool. PlayStation and Xbox players can opt into crossplay on official console servers. PC players can separately opt into community servers that use the console ruleset and allow eligible console players. There is no cross-progression, PC ownership does not grant a console copy, DLC and cosmetics stay on the platform where they were purchased, and mods will not be available on console at launch."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "The most useful part of this announcement is the unusually detailed FAQ. Players can already see that the console edition keeps the large match size and communication tools, while the opt-in server structure gives PC communities a choice about whether to mix platforms. That is more concrete than a trailer alone and gives the PS5 alpha clear questions to test: controller access to command tools, voice-chat participation, server stability and readability in a 50-versus-50 match.",
+                "Performance remains the largest open issue. Offworld currently targets dynamic-upscaled 4K at 60 frames per second on PS5 and Xbox Series X, but dynamic-upscaled 1440p at 30 frames per second on Series S. Those are development targets, not verified final results, and the studio says it will publish final performance details closer to release. Players should not treat the numbers as guaranteed until production builds can be tested independently."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "PS5 players can download the alpha through Offworld's official test page and play until October 25. The finished console release will be digital-only and will require the normal paid online service for each platform. A microphone is not technically required, but the game is built around voice coordination, and mouse-and-keyboard support is not planned for console at launch.",
+                "Before buying, watch for an exact 2027 date, price, regional availability, final frame-rate and resolution results, and details on any later beta. Game Pass and PlayStation Plus availability are unconfirmed. PC players can also claim the Recon Team Pack free on Steam before October 25; the cosmetic pack requires the PC base game and does not transfer to console."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Offworld Industries — official console announcement and detailed FAQ",
+            "url": "https://www.joinsquad.com/updates/squad-is-coming-to-console"
+        },
+        {
+            "label": "Offworld Industries — official PS5 alpha download page and 2027 console window",
+            "url": "https://alpha.joinsquad.com/"
+        },
+        {
+            "label": "Steam — official Recon Team Pack offer and October 25 deadline",
+            "url": "https://store.steampowered.com/app/4841320/Squad_Weapon_Skins__Recon_Team_Pack/"
+        },
+        {
+            "label": "Gematsu — independent confirmation of platforms, release year and alpha dates",
+            "url": "https://www.gematsu.com/2026/10/squad-coming-to-ps5-xbox-series-in-2027"
+        }
+    ]
+}

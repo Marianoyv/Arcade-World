@@ -1,0 +1,76 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "lufia-i-ii-sinistrals-saga-2027",
+    "title": "Lufia I & II: The Sinistrals Saga Brings Both SNES RPGs to Modern Platforms in 2027",
+    "shortTitle": "Lufia I & II: The Sinistrals Saga Brings Both SNES RPGs to Modern Platforms in 2027",
+    "category": "Preservation",
+    "publishedAt": "2026-09-21T10:04:15-03:00",
+    "modifiedAt": "2026-09-21T10:04:15-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Taito's Lufia I & II collection is coming to PS5, Switch 2, Switch, and Steam in 2027, preserving the original pixel art with new play features.",
+    "quickTake": "Taito announced a two-game Lufia collection for PS5, Switch 2, Switch, and Steam in 2027; its original pixel art will be retained.",
+    "whyCare": "The original 16-bit RPGs will be available together on current platforms, including an official Steam release, without requiring original hardware.",
+    "playerMove": "Wishlist the Steam edition if interested, but wait for the exact release date, price, and a clear list of new functions before choosing a version.",
+    "image": "img/blog/lufia-i-ii-sinistrals-saga-2027.png",
+    "imageAlt": "Two original fantasy adventurers look across misty ruins toward a floating island at sunrise.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "Lufia I & II The Sinistrals Saga",
+        "Lufia & the Fortress of Doom",
+        "Lufia II: Rise of the Sinistrals",
+        "Taito",
+        "Clear River Games",
+        "Nintendo Switch 2",
+        "game preservation"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Taito announced Lufia I & II The Sinistrals Saga on September 20, 2026. The collection pairs Lufia & the Fortress of Doom with its prequel, Lufia II: Rise of the Sinistrals, for PlayStation 5, Nintendo Switch 2, Nintendo Switch, and PC via Steam. Taito lists a 2027 release window, with no exact date or price yet. Gematsu independently reported the announcement and the same platform lineup.",
+                "Taito says the release preserves the original pixel art while adding new functions to improve play. Its public announcement does not yet describe those functions in detail. The official Steam listing calls the games ports enhanced for modern play and lists Taito and Clear River Games as publishers."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "These are two connected 16-bit RPGs, but their story order differs from their release order: Lufia II follows Maxim before the events recalled in the first game. Having both in one current-platform package gives newcomers a practical way to follow that larger story and gives returning players a legal route to revisit the original-style games without keeping an SNES setup.",
+                "The preservation claim has a useful, specific limit. Taito confirms the original pixel art, but has not detailed display options, save tools, rewind, speed settings, or other convenience features. Players should avoid assuming that every familiar feature of a modern retro collection is included."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "The strongest part of this announcement is access: two historically linked games are being sold together across consoles and Steam. That matters more than a visual overhaul for a collection whose appeal includes its original art and turn-based design. It also makes the package distinct from the later Nintendo DS reimagining of Lufia II.",
+                "For a preservation-minded purchase, the unanswered questions are practical rather than cosmetic. The final value depends on how faithfully each game behaves, what optional quality-of-life tools exist, whether any content or regional text differs, and how each platform's edition is delivered. None of those points should be treated as settled by the teaser alone."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Taito's official site lists the release year as 2027 and the price as to be determined. It lists English for the US and European releases alongside Japanese, French, German, and Spanish; the Steam version is listed with the full set of regional languages. Steam wishlisting is already available, but console purchase details have not been announced on the official site.",
+                "Watch for a dated release announcement and a feature breakdown before preordering. In particular, verify the exact port options and format of the version you intend to buy. If the goal is to explore more classic games now, Arcade World's Game Room offers a separate catalog of playable titles and game pages."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Taito — Lufia I & II The Sinistrals Saga official announcement and product details",
+            "url": "https://www.taito.co.jp/en/lufia"
+        },
+        {
+            "label": "Steam — Lufia I & II The Sinistrals Saga product listing",
+            "url": "https://store.steampowered.com/app/4027620/Lufia_I__II_The_Sinistrals_Saga/"
+        },
+        {
+            "label": "Gematsu — Lufia I & II collection announcement, September 20, 2026",
+            "url": "https://www.gematsu.com/2026/09/lufia-i-ii-the-sinistrals-saga-announced-for-ps5-switch-2-switch-and-pc"
+        }
+    ]
+}

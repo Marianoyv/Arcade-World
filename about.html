@@ -2,117 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="icon" type="image/png" href="Img/favcoin.png"/>
-    <title>About</title>
-    <meta name="description" content="Juegos Arcade en Stream, proyecto de codo a codo, comision 22511 (G-8)">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/css/detail.css">
+    <link rel="stylesheet" href="/css/support.css">
+    <link rel="icon" type="image/png" href="/img/favcoin.png">
+    <title>About Arcade World | Retro Games, Guides and Local Emulation</title>
+    <meta name="description" content="Arcade World is building a reliable retro game catalog, practical gaming guides and a local-first emulator library for browser and desktop players.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arcade-world.web.app/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Arcade World">
+    <meta property="og:description" content="A retro game discovery platform built around useful catalog pages, creator sources and local-first play.">
+    <meta property="og:url" content="https://arcade-world.web.app/about.html">
+    <meta property="og:image" content="https://arcade-world.web.app/img/gamesbg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#08090d">
     <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
-
-    <!--Navbar-->
-    <div class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="insercoin">Insert<br>Coin</a>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
         <a href="help.html">HELP</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="about.html">ABOUT</a>
+        <a href="freeplay.html">FREEPLAY</a>
+        <a href="library.html">LIBRARY</a>
+        <a href="blog.html">BLOG</a>
         <a href="games.html">GAMES</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunc()">
-        <i class="fa fa-bars"></i></a>
-</div>
-  
-  <script>
-    function myFunc() { 
-        var menu = document.getElementById("nav");
-    if (menu.className === "navbar") {
-        menu.className += " responsive";
-      } else {
-        menu.className = "navbar";}
-    }
-    </script>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><i class="fa fa-bars"></i></a>
+    </nav>
 
-    <!--Header-->
-    <div class="about">
-        <div class="main">
-            <div class="text">
-                <span>
-                    <h5>Welcome to the arcade</h5>
-                </span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, rem non voluptatem quam
-                    iusto
-                    illo est asperiores cupiditate mollitia voluptates dolor, vero numquam hic eveniet animi sequi
-                    atque
-                    possimus! Odit.
-                </p>
+    <main>
+        <section class="support-hero panel about-hero">
+            <div>
+                <p class="eyebrow">About Arcade World</p>
+                <h1>A game room built to keep growing.</h1>
+                <p>Arcade World combines a large retro catalog, fast game discovery, practical gaming stories and a local-first emulator path that respects player files and creator rights.</p>
+                <div class="cta-row"><a class="button" href="games.html">Enter the Game Room</a><a class="button secondary" href="blog.html">Read the blog</a></div>
             </div>
-        </div>
-        <div class="main2">
-            <div class="text2">
-                <span>
-                    <h5>Old Videogames prevail</h5>
-                </span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita hic natus unde eum atque,
-                    molestias consequatur odio repellat iste vitae perspiciatis labore quidem obcaecati! Quae velit
-                    porro neque esse quisquam!
-                </p>
-            </div>
-        </div>
-        <div class="main3">
-            <div class="text3">
-                <span>
-                    <h5>Offers everywhere</h5>
-                </span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita hic natus unde eum atque,
-                    molestias consequatur odio repellat iste vitae perspiciatis labore quidem obcaecati! Quae velit
-                    porro neque esse quisquam!
-                </p>
-            </div>
-        </div>
-        <div class="main4">
-            <div class="text4">
-                <span>
-                    <h5>Support 24Hs</h5>
-                </span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita hic natus unde eum atque,
-                    molestias consequatur odio repellat iste vitae perspiciatis labore quidem obcaecati! Quae velit
-                    porro neque esse quisquam!
-                </p>
-            </div>
-        </div>
-    </div>
+            <div class="pixel-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+        </section>
 
-  <!--Footer-->
+        <section class="principle-grid">
+            <article><span>DISCOVER</span><h2>Useful catalog pages</h2><p>Every game should be easy to find, compare and understand before a player presses start.</p></article>
+            <article><span>PLAY</span><h2>Local-first emulation</h2><p>Players can use compatible files on their own device without uploading them to Arcade World.</p></article>
+            <article><span>LEARN</span><h2>Gaming without homework</h2><p>Guides and news are written for gamers who want the important part quickly, with sources when depth matters.</p></article>
+            <article><span>BUILD</span><h2>Creator-approved growth</h2><p>Homebrew, demos and licensed releases are the cleanest path to a huge dependable playable library.</p></article>
+        </section>
 
-  <footer class="pie-pagina">
-    <div class ="grupo">
-        <div class = "box">
-                <a href="index.html"><img src="img/logo.png" alt="coin"></a>
-        </div>
-        <div class ="box sobren">
-            <h2>Sobre nosotros</h2>
-            <p>Arcade World is the game land of the best exclusive games for you! 
-                It is free you can play at anytime
-            </p>
-        </div>
-        <div class="box">
-            <h2>Encuentranos en</h2>
-            <div class="red-social">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                <a href="https://twitter.com" class="fa fa-twitter"></a>
-                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
-            </div>
-        </div>
-        <div class="boxs">
-        <small>&copy; 2022 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
-        </div>
-    </div>
-</footer>
-    <script src="main.js"></script>
-</body>
+        <section class="content-grid about-content">
+            <article class="panel">
+                <p class="eyebrow">What we are building</p>
+                <h2>More than a wall of game cards</h2>
+                <p>The goal is a platform where each game has useful metadata, controls, related titles, creator source information and a reliable path to play. The browser is the discovery layer; the desktop app is intended to become the durable home for local files, saves and longer sessions.</p>
+                <p>Arcade World does not hide commercial ROM downloads. Public play should come from approved releases, while personal files remain local to the player's device.</p>
+            </article>
+            <aside class="panel build-status">
+                <p class="eyebrow">Current build</p>
+                <ul>
+                    <li>50 catalog game pages</li>
+                    <li>50 gaming guides and stories</li>
+                    <li>Freeplay homebrew discovery</li>
+                    <li>Favorites and recent sessions</li>
+                    <li>Local ROM import player</li>
+                    <li>Desktop packaging foundation</li>
+                </ul>
+            </aside>
+        </section>
 
+        <section class="support-footer-grid">
+            <div class="link-card"><h2>Need help?</h2><p>Controls, files, saves and common player issues are covered in one place.</p><a href="help.html">Open Help</a></div>
+            <div class="link-card"><h2>Made a game?</h2><p>Arcade World can feature creator-approved retro releases with clear attribution.</p><a href="creators.html">For creators</a></div>
+            <div class="link-card"><h2>Want the rules?</h2><p>See how local files, analytics, rights requests and news standards are handled.</p><a href="editorial-policy.html">Editorial policy</a></div>
+        </section>
+    </main>
+
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
+    <script src="main.js?v=6"></script>
 </body>
 </html>

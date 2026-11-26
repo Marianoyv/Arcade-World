@@ -1,0 +1,79 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "warcraft-3-reforged-always-online-lan-removed",
+    "title": "Warcraft III: Reforged 3.0 Removes LAN and Makes the Remaster Always-Online",
+    "shortTitle": "Warcraft III: Reforged Removes LAN",
+    "category": "Preservation",
+    "publishedAt": "2026-09-14T19:34:53-03:00",
+    "modifiedAt": "2026-09-14T19:34:53-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Warcraft III: Reforged now requires a constant internet connection and no longer offers LAN play, though Blizzard's Legacy client keeps both options.",
+    "quickTake": "Blizzard's official 3.0 patch notes confirm that the Reforged client must remain online and has lost LAN mode; offline and LAN play now require the separate Legacy client.",
+    "whyCare": "Campaign players can no longer use the remaster during an outage or without reliable internet, while local groups must give up Reforged features and use the older client to keep playing over LAN.",
+    "playerMove": "If offline or LAN play matters to you, install and test the Legacy client before your next trip, event, or tournament; do not assume the updated Reforged client will work without Battle.net connectivity.",
+    "image": "img/blog/warcraft-3-reforged-always-online-lan-removed.png",
+    "imageAlt": "Two fantasy strategy tables are separated by a severed network cable while both connect toward a distant blue server beacon.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "Warcraft III: Reforged",
+        "Warcraft III 3.0",
+        "LAN gaming",
+        "always-online games",
+        "offline play",
+        "game preservation"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Blizzard released Warcraft III: Reforged version 3.0.0, build 24268, on September 12, 2026 alongside the paid Forsaken Kingdom campaign. The official patch notes state that LAN mode has been removed from the Reforged client and that the client now requires players to remain online at all times.",
+                "Those restrictions apply to the updated Reforged client, including its single-player campaigns. Blizzard says offline and LAN play remain available through the separate Classic, or Legacy, client. PC Gamer independently reported the same change on September 13 and noted that Blizzard gave no reason for it in the patch notes."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "This is more than a menu change. A campaign that previously worked without a live connection now depends on Blizzard's service being reachable, so internet outages, travel, unstable connections, or a future server shutdown can interrupt access to the remastered client even when no multiplayer feature is being used.",
+                "LAN groups and tournament organizers still have an official fallback, but it is not equivalent to Reforged 3.0. The Legacy client preserves local networking and offline play while leaving behind the remaster's newer presentation and systems, including the new Definitive Edition graphics mode, expanded 24-unit selection cap, updated World Editor, and Forsaken Kingdom content."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "The Legacy fallback prevents total loss of local Warcraft III play, but splitting durable access from the current version is a preservation compromise rather than a complete solution. Players should not have to choose between modern improvements and the ability to run a single-player campaign or local match when a remote service is unavailable.",
+                "Version 3.0 also brings meaningful improvements: new server locations, password-protected custom lobbies, additional editor tools, a higher unit-selection limit, and a third graphics option. Those gains make the connectivity rollback more consequential, because the client with the most features is now the least self-contained."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Blizzard has not announced whether LAN or offline mode will return to Reforged. Until it does, players who depend on either feature should use the Game Version selector in the Battle.net launcher to install Warcraft III: Legacy 1.29, then verify their maps and local setup before they need them.",
+                "Keep the two clients' roles clear: use Reforged 3.0 for current Battle.net play, its revised visuals and editor features, or the new campaign; use Legacy for offline campaigns and true LAN sessions. Watch future patch notes for an explicit reversal rather than treating community requests as a confirmed plan."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Blizzard — Warcraft III: Reforged - Forsaken Kingdom Patch Notes",
+            "url": "https://us.forums.blizzard.com/en/warcraft3/t/warcraft-iii-reforged-forsaken-kingdom-patch-notes/38400"
+        },
+        {
+            "label": "Blizzard — BlizzCon 2026 Warcraft news round-up",
+            "url": "https://news.blizzard.com/en-us/article/24301145/world-of-warcraft-at-blizzcon-2026-news-round-up"
+        },
+        {
+            "label": "PC Gamer — Warcraft III: Reforged adds always-online requirement, removes LAN mode",
+            "url": "https://www.pcgamer.com/games/rts/warcraft-3-reforged-adds-always-online-requirement-removes-lan-mode/"
+        },
+        {
+            "label": "Windows Central — Warcraft III: Legacy arrives on Battle.net",
+            "url": "https://www.windowscentral.com/gaming/pc-gaming/warcraft-3-legacy-battle-net-launch"
+        }
+    ]
+}

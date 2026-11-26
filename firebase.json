@@ -1,10 +1,84 @@
 {
   "hosting": {
-    "public": "./",
+    "public": "site-dist",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "electron/**",
+      "emulators/**",
+      "scripts/**",
+      "tests/**",
+      "analytics/**",
+      "credentials/**",
+      "analytics-local.json",
+      "content/**",
+      "roms/**",
+      "dist*/**",
+      "Readme/**",
+      "package.json",
+      "package-lock.json",
+      "DESKTOP_APP.md",
+      "ANALYTICS.md",
+      "analytics-ga4-setup.json",
+      "**/README.md",
+      "**/*.iso",
+      "**/*.bin",
+      "**/*.cue",
+      "**/*.chd",
+      "**/*.cso",
+      "**/*.exe",
+      "**/*.dll",
+      "*.log"
+    ],
+    "redirects": [
+      {
+        "source": "/legal-games.html",
+        "destination": "/freeplay.html",
+        "type": 301
+      }
+    ],
+    "headers": [
+      {
+        "source": "/manifest.webmanifest",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/manifest+json"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=3600"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=3600"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(png|jpg|jpeg|gif|webp|svg|mp4|ttf|woff|woff2)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=604800"
+          }
+        ]
+      },
+      {
+        "source": "/sw.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
     ]
   }
 }

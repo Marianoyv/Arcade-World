@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#07080d"/>
+  <g stroke="#30364a" stroke-width="2" opacity="0.7">
+    <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M120 0v720M240 0v720M360 0v720M480 0v720M600 0v720M720 0v720M840 0v720M960 0v720M1080 0v720"/>
+  </g>
+  <rect x="250" y="160" width="700" height="400" rx="34" fill="#11131d" stroke="#22d3ee" stroke-width="8"/>
+  <path d="M390 325h420M390 385h300M390 445h360" stroke="#c8ff4d" stroke-width="16"/>
+  <circle cx="600" cy="238" r="48" fill="#ff2f7d"/>
+  <path d="M600 190v96M552 238h96" stroke="#f7f7fb" stroke-width="12"/>
+  <text x="84" y="116" fill="#f7f7fb" font-family="monospace" font-size="70" font-weight="700">AI GAME TOOLS</text>
+  <text x="86" y="172" fill="#b8bed2" font-family="monospace" font-size="30">less hype, more useful pipelines</text>
+</svg>

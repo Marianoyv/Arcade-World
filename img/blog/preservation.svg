@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#07080d"/>
+  <rect x="260" y="130" width="680" height="460" rx="24" fill="#11131d" stroke="#30364a" stroke-width="8"/>
+  <rect x="330" y="210" width="180" height="230" fill="#050609" stroke="#c8ff4d" stroke-width="8"/>
+  <rect x="555" y="210" width="180" height="230" fill="#050609" stroke="#22d3ee" stroke-width="8"/>
+  <rect x="780" y="210" width="80" height="230" fill="#050609" stroke="#ff2f7d" stroke-width="8"/>
+  <path d="M340 500h520" stroke="#ffbd3d" stroke-width="14"/>
+  <text x="80" y="110" fill="#f7f7fb" font-family="monospace" font-size="66" font-weight="700">SAVE THE GAMES</text>
+  <text x="82" y="164" fill="#b8bed2" font-family="monospace" font-size="30">preservation needs clean sources</text>
+</svg>

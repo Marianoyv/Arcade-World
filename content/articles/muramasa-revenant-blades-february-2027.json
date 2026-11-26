@@ -1,0 +1,79 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "muramasa-revenant-blades-february-2027",
+    "title": "Muramasa: Revenant Blades Launches February 4, 2027 on PS5, Switch 2, Switch, and PC",
+    "shortTitle": "Muramasa: Revenant Blades Launches February 4",
+    "category": "Preservation",
+    "publishedAt": "2026-09-11T10:27:22-03:00",
+    "modifiedAt": "2026-09-11T10:27:22-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Vanillaware's Muramasa returns on February 4, 2027, combining the Vita release and Genroku Legends for modern consoles and Steam.",
+    "quickTake": "Marvelous and Vanillaware confirmed Muramasa: Revenant Blades for PS5, Switch 2, Switch, and PC via Steam, with all six stories and a classic mode in one release.",
+    "whyCare": "A game and DLC collection long tied to discontinued hardware is becoming available on current platforms, with the original-style experience preserved alongside the revised version.",
+    "playerMove": "Wishlist it if you want a modern Muramasa release, but wait for digital pricing and platform-specific performance details before choosing a version or placing a preorder.",
+    "image": "img/blog/muramasa-revenant-blades-february-2027.png",
+    "imageAlt": "An original wandering swordsman overlooks a moonlit mountain path filled with shrines, mist, and spectral lights.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "Muramasa: Revenant Blades",
+        "Muramasa: Rebirth",
+        "Vanillaware",
+        "Nintendo Switch 2",
+        "PlayStation 5",
+        "game preservation"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Marvelous and developer Vanillaware announced on September 10, 2026 that Muramasa: Revenant Blades will launch on February 4, 2027 for PlayStation 5, Nintendo Switch 2, Nintendo Switch, and PC via Steam. The official site lists all four platforms, while Marvelous' PlayStation Blog post confirms the date and describes the release as a remastered action RPG.",
+                "The package combines Muramasa: Rebirth with its Genroku Legends add-on for the first time, bringing together six playable protagonists and their separate stories. Confirmed additions include a new English voice-over, revised combat and progression features, a gallery, character viewer, event replay tools, and a classic mode based on the PlayStation Vita versions of the main game and Genroku Legends."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "Muramasa's most complete prior release was built around the discontinued PlayStation Vita, while the original Muramasa: The Demon Blade appeared on Wii. Revenant Blades moves that combined content to hardware players can buy today and preserves a version of the earlier gameplay inside the new release instead of replacing it outright.",
+                "The official site advertises 4K presentation on supported platforms, not on every listed system. It does not yet provide a frame-rate target or a platform-by-platform resolution breakdown, so the confirmed value is broader access and a consolidated edition—not identical technical performance everywhere."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "Including both the renewed game and a classic mode is the most meaningful part of this announcement. Remasters often force players to accept mechanical revisions as the only available version; keeping the Vita-era experience accessible gives returning players a comparison point and makes the release more useful for preservation.",
+                "Gematsu reports North American physical prices of $49.99 for PS5 and Switch, and $59.99 for Switch 2, with the full game on the Switch 2 card. That is independently reported detail rather than information displayed on the current official game page, so buyers should verify the exact edition, region, retailer terms, and cartridge contents before paying."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Wishlists and physical preorders are opening through platform stores and regional retailers. Marvelous says digital-edition details are still to come, leaving digital prices and any edition differences unconfirmed for now.",
+                "The useful next update will be a technical comparison covering frame rate, resolution, load times, handheld behavior, and any download requirement by platform. Until Marvelous publishes those details, players should choose based on where they want to play and avoid treating the 4K claim as universal."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Muramasa: Revenant Blades — official game site",
+            "url": "https://www.muramasa-game.com/"
+        },
+        {
+            "label": "PlayStation Blog — Muramasa: Revenant Blades launches February 4, 2027",
+            "url": "https://blog.playstation.com/2026/09/10/muramasa-revenant-blades-launches-february-4-2027/"
+        },
+        {
+            "label": "Gematsu — Muramasa: Revenant Blades launches February 4, 2027",
+            "url": "https://www.gematsu.com/2026/09/muramasa-revenant-blades-launches-february-4-2027"
+        },
+        {
+            "label": "RPG Site — Muramasa: Revenant Blades launches on February 4, 2027",
+            "url": "https://www.rpgsite.net/news/21342-muramasa-revenant-blades-launches-on-february-4-2027"
+        }
+    ]
+}

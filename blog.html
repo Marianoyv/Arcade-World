@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="alternate" type="application/rss+xml" title="Arcade World News and Guides" href="/feed.xml">
+    <link rel="icon" type="image/png" href="img/favcoin.png">
+    <title>Arcade World News | Gaming News and Retro Guides</title>
+    <meta name="description" content="Gaming news with a player-first angle, plus retro guides, industry analysis, emulation explainers and Arcade World updates.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arcade-world.web.app/blog.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Arcade World News | Gaming News and Retro Guides">
+    <meta property="og:description" content="Gaming news, useful context and practical stories for players.">
+    <meta property="og:url" content="https://arcade-world.web.app/blog.html">
+    <meta property="og:image" content="https://arcade-world.web.app/img/arcade-world-cover.png">
+    <meta property="og:image:width" content="1732">
+    <meta property="og:image:height" content="908">
+    <meta property="og:image:alt" content="Neon-lit gaming desk with an arcade stick, controller and golden arcade tokens">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://arcade-world.web.app/img/arcade-world-cover.png">
+    <meta name="twitter:image:alt" content="Neon-lit gaming desk with an arcade stick, controller and golden arcade tokens">
+    <meta name="theme-color" content="#08090d">
+    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="help.html">HELP</a>
+        <a href="freeplay.html">FREEPLAY</a>
+        <a href="library.html">LIBRARY</a>
+        <a href="blog.html">BLOG</a>
+        <a href="games.html">GAMES</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main>
+        <section class="blog-hero">
+            <p class="eyebrow">Arcade World newsroom</p>
+            <h1>Gaming news that gets to the point</h1>
+            <p>Confirmed news, useful context and a clear answer to the question that matters: what changes for players?</p>
+        </section>
+
+        <section class="news-tools" aria-label="Filter stories">
+            <label class="news-search">
+                <span>Search</span>
+                <input id="postSearch" type="search" placeholder="Search news and guides" autocomplete="off">
+            </label>
+            <label>
+                <span>Category</span>
+                <select id="postCategory"><option value="all">All categories</option></select>
+            </label>
+            <p id="postCount" aria-live="polite"></p>
+        </section>
+
+        <section class="post-grid" id="postGrid"></section>
+        <p class="news-empty" id="postEmpty" hidden>No stories match those filters.</p>
+        <div class="load-more-wrap"><button id="postLoadMore" class="load-more" type="button">Load more stories</button></div>
+
+        <section class="seo-post-links" aria-label="All Arcade World stories">
+            <h2>All stories</h2>
+            <div>
+                <!-- SEO_POST_LINKS_START -->
+                <a href="blog/gta-6-launch-player-reactions-performance.html">GTA 6 Launch Reactions Are Strong, but 30 FPS Performance Divides Players</a>
+                <a href="blog/ea-closes-bioware-cancels-next-mass-effect.html">BioWare Is Closing as EA Cancels the Next Mass Effect</a>
+                <a href="blog/riders-republic-offline-mode-switch-2-december-9.html">Riders Republic Adds Offline Mode on December 9 as the Switch 2 Version Launches</a>
+                <a href="blog/openps2bios-0-2-open-source-ps2-bios-emulators.html">OpenPS2BIOS 0.2 Offers an Experimental Open-Source PS2 BIOS for Emulators</a>
+                <a href="blog/squad-console-ps5-alpha-october-2026.html">Squad Is Coming to PS5 and Xbox Series as a Free PS5 Alpha Begins October 16</a>
+                <a href="blog/rimworld-1-7-waylith-engine-beta.html">RimWorld 1.7 Leaves Unity for Waylith With Saves and Most Mods Intact</a>
+                <a href="blog/ultimechs-multiplayer-ends-october-20.html">Ultimechs Multiplayer Ends October 20 as the VR Game Leaves Stores</a>
+                <a href="blog/forza-horizon-6-comes-to-ps5-on-january-26-with-cross-save-and-a-disc-edition.html">Forza Horizon 6 Comes to PS5 on January 26 With Cross-Save and a Disc Edition</a>
+                <a href="blog/gears-of-war-e-day-launches-xbox-pc-game-pass.html">Gears of War: E-Day Launches on Xbox and PC With Game Pass Access</a>
+                <a href="blog/rs4-new-runescape-mmo-announced.html">Jagex Announces RS4, a New RuneScape MMO Built in Unreal Engine</a>
+                <a href="blog/xbox-cuts-268-roles-halo-activision-reorganization.html">Xbox Cuts 268 Roles and Moves Next Halo Development to Activision</a>
+                <a href="blog/lufia-i-ii-sinistrals-saga-2027.html">Lufia I &amp; II: The Sinistrals Saga Brings Both SNES RPGs to Modern Platforms in 2027</a>
+                <a href="blog/stellar-blade-switch-2-demo-available.html">Stellar Blade Switch 2 Demo Is Available Ahead of Its November 5 Launch</a>
+                <a href="blog/diablo-4-switch-2-launch-performance-online-requirement.html">Diablo IV Launches on Switch 2 With Cross-Progression and a 40 FPS Mode</a>
+                <a href="blog/warcraft-3-reforged-always-online-lan-removed.html">Warcraft III: Reforged 3.0 Removes LAN and Makes the Remaster Always-Online</a>
+                <a href="blog/muramasa-revenant-blades-february-2027.html">Muramasa: Revenant Blades Launches February 4, 2027 on PS5, Switch 2, Switch, and PC</a>
+                <a href="blog/gta-6-2026-confirmed-leaks-controversies.html">GTA 6 in 2026: Release Date, Leaks, Controversies and What Is Confirmed</a>
+                <a href="blog/xbox-will-publish-kojima-productions-physint-after-playstation-steps-away.html">Xbox Will Publish Kojima Productions&#39; PHYSINT After PlayStation Steps Away</a>
+                <a href="blog/rain-world-anthology-physical-edition.html">Rain World Anthology Brings the Complete Game to PS5 and Switch 2 on February 18</a>
+                <a href="blog/how-arcade-world-handles-roms.html">How Arcade World Handles ROMs</a>
+                <a href="blog/how-to-play-arcade-games-on-pc.html">How to Play Arcade Games on PC</a>
+                <a href="blog/best-legal-homebrew-rom-sources.html">Best Homebrew ROM Sources</a>
+                <a href="blog/mame-vs-emulatorjs.html">MAME vs EmulatorJS: What Players Need to Know</a>
+                <a href="blog/what-are-save-states.html">What Are Save States?</a>
+                <a href="blog/best-arcade-beat-em-ups.html">Best Arcade Beat Em Ups to Start With</a>
+                <a href="blog/best-arcade-shooters.html">Best Arcade Shooters for High Score Runs</a>
+                <a href="blog/pac-man-history-and-how-to-play.html">Pac-Man: History and How to Play</a>
+                <a href="blog/galaga-beginner-guide.html">Galaga Beginner Guide</a>
+                <a href="blog/metal-slug-why-it-still-hits.html">Why Metal Slug Still Hits</a>
+                <a href="blog/street-fighter-ii-arcade-basics.html">Street Fighter II Arcade Basics</a>
+                <a href="blog/how-to-build-a-retro-game-library.html">How to Build a Retro Game Library</a>
+                <a href="blog/browser-vs-desktop-emulation.html">Browser vs Desktop Emulation</a>
+                <a href="blog/best-platform-arcade-games.html">Best Platform Arcade Games</a>
+                <a href="blog/best-puzzle-arcade-games.html">Best Puzzle Arcade Games</a>
+                <a href="blog/how-to-use-a-local-rom-importer.html">How to Use a Local ROM Importer</a>
+                <a href="blog/arcade-world-roadmap.html">Arcade World Roadmap</a>
+                <a href="blog/why-game-pages-matter-for-seo.html">Why Game Pages Matter for SEO</a>
+                <a href="blog/homebrew-creators-and-arcade-world.html">Homebrew Creators and Arcade World</a>
+                <a href="blog/retro-controllers-for-desktop-arcade.html">Retro Controllers for a Desktop Arcade</a>
+                <a href="blog/best-mame-arcade-games-for-beginners.html">Best MAME Arcade Games for Beginners</a>
+                <a href="blog/how-to-organize-rom-files.html">How to Organize ROM Files for a Retro Library</a>
+                <a href="blog/what-is-a-bios-file-in-emulation.html">What Is a BIOS File in Emulation?</a>
+                <a href="blog/arcade-vs-console-roms.html">Arcade ROMs vs Console ROMs</a>
+                <a href="blog/how-save-data-works-in-desktop-emulators.html">How Save Data Works in Desktop Emulators</a>
+                <a href="blog/best-retro-games-for-short-sessions.html">Best Retro Games for Short Sessions</a>
+                <a href="blog/how-to-use-keyboard-controls-in-arcade-games.html">How to Use Keyboard Controls in Arcade Games</a>
+                <a href="blog/why-homebrew-games-are-important.html">Why Homebrew Games Are Important for Retro Platforms</a>
+                <a href="blog/how-to-find-public-domain-games.html">How to Find Public-Domain and Open Retro Games</a>
+                <a href="blog/arcade-game-genres-explained.html">Arcade Game Genres Explained</a>
+                <a href="blog/how-to-build-a-high-score-routine.html">How to Build a High-Score Routine</a>
+                <a href="blog/best-coop-arcade-games.html">Best Co-op Arcade Games</a>
+                <a href="blog/retro-game-preservation-explained.html">Retro Game Preservation Explained</a>
+                <a href="blog/how-arcade-world-local-library-works.html">How the Arcade World Local Library Works</a>
+                <a href="blog/best-arcade-racing-games.html">Best Arcade Racing Games</a>
+                <a href="blog/how-to-choose-an-emulator-core.html">How to Choose an Emulator Core</a>
+                <a href="blog/why-ads-hurt-browser-games.html">Why Ads Hurt Browser Game Sessions</a>
+                <a href="blog/how-to-submit-homebrew-to-arcade-world.html">How to Submit Homebrew to Arcade World</a>
+                <a href="blog/best-games-for-arcade-sticks.html">Best Games for Arcade Sticks</a>
+                <a href="blog/how-to-make-a-retro-site-rank.html">How to Make a Retro Gaming Site Rank</a>
+                <a href="blog/handheld-gaming-pcs-are-getting-expensive.html">Handheld Gaming PCs Are Getting Expensive: What It Means for Retro Players</a>
+                <a href="blog/cloud-gaming-and-retro-arcades.html">Cloud Gaming Is Growing Fast, But Retro Arcades Still Need Local Play</a>
+                <a href="blog/ai-game-development-is-now-infrastructure.html">AI in Game Development Is Moving From Hype to Infrastructure</a>
+                <a href="blog/platform-convergence-gaming-2026.html">Platform Convergence: Why PC, Console and Mobile Boundaries Keep Blurring</a>
+                <a href="blog/mobile-gaming-liveops-2026.html">Mobile Gaming in 2026: LiveOps, Retention and the End of Passive Catalogs</a>
+                <a href="blog/retro-handhelds-and-emulation-setup.html">Retro Handhelds and Emulation: Why Setup Still Matters</a>
+                <a href="blog/physical-games-preservation-and-digital-only.html">Physical Games, Preservation and the Digital-Only Problem</a>
+                <a href="blog/accessibility-first-gaming-design.html">Accessibility-First Gaming Design Is Becoming a Baseline Expectation</a>
+                <a href="blog/creator-led-gaming-ecosystems.html">Creator-Led Gaming Ecosystems Are the Clean Path for a Web Arcade</a>
+                <a href="blog/gaming-hardware-shortages-and-player-value.html">Gaming Hardware Shortages Are Changing How Players Think About Value</a>
+<!-- SEO_POST_LINKS_END -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="grupo">
+            <div class="box">
+                <a href="index.html"><img src="img/logo.png" alt="Insert Coin"></a>
+            </div>
+            <div class="box sobren">
+                <h2>Sobre nosotros</h2>
+                <p>Arcade World is a free browser arcade for quick retro sessions, favorite classics and high score chasers.</p>
+                <p><a href="editorial-policy.html">Editorial policy</a> · <a href="contact.html">Corrections</a> · <a href="feed.xml">RSS</a></p>
+            </div>
+            <div class="box-s">
+                <small>&copy; 2026 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
+            </div>
+        </div>
+    </footer>
+    <script src="data/blog-index.js"></script>
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
+    <script src="main.js?v=8"></script>
+</body>
+</html>

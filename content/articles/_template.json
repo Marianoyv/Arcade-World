@@ -1,0 +1,63 @@
+{
+    "status": "draft",
+    "type": "news",
+    "slug": "replace-with-article-slug",
+    "title": "Replace with a clear, factual headline",
+    "shortTitle": "Short mobile headline",
+    "category": "Industry",
+    "publishedAt": "2026-09-06T12:00:00-03:00",
+    "modifiedAt": "2026-09-06T12:00:00-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "One sentence that states what happened and why it matters.",
+    "quickTake": "The confirmed news in plain language.",
+    "whyCare": "The concrete consequence for players.",
+    "playerMove": "What readers should watch, do or avoid next.",
+    "image": "img/blog/article-image.jpg",
+    "imageAlt": "A useful description of the article image.",
+    "imageCredit": "Image: source or Arcade World",
+    "showImageCredit": true,
+    "keywords": [
+        "main topic",
+        "company or game"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Lead with confirmed facts, names, dates and scope."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "Add context and explain the consequence for gamers."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "Add original analysis instead of repeating the sources."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Separate confirmed next steps from open questions."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Primary source",
+            "url": "https://example.com/official-source"
+        },
+        {
+            "label": "Independent confirmation",
+            "url": "https://example.com/independent-source"
+        }
+    ]
+}

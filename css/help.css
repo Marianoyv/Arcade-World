@@ -1,13 +1,8 @@
-@font-face {
-    font-family: 'Arcade';
-    src: url('/font/ARCADE_N.TTF') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap');
 
 *{
     box-sizing: border-box;
-    font-family: Arcade;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 html{
@@ -258,7 +253,7 @@ summary::before {
     transform-origin: center;
     transition: 0.2s transform ease;
 }
-  
+
 details[open] > summary:before {
     transform: rotate(90deg);
     transition: 0.45s transform ease;
@@ -438,6 +433,5 @@ footer .box-s {
         transform: rotate(270deg);
         transition: 0.5s ease-in-out;
     }
-  
   }
-  
+

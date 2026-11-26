@@ -1,0 +1,117 @@
+.analytics-settings-button {
+    appearance: none;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.78rem;
+    margin: 1rem auto;
+    padding: 0.55rem 0.85rem;
+}
+
+.analytics-settings-button:hover,
+.analytics-settings-button:focus-visible {
+    border-color: #22d3ee;
+    color: #22d3ee;
+    outline: none;
+}
+
+body > .analytics-settings-button {
+    background: #111827;
+    bottom: 0.8rem;
+    color: #f8fafc;
+    left: 0.8rem;
+    margin: 0;
+    position: fixed;
+    z-index: 9997;
+}
+
+.analytics-preferences-panel {
+    background: #0b1020;
+    border: 1px solid rgba(34, 211, 238, 0.55);
+    border-radius: 16px;
+    bottom: 1rem;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+    color: #e5e7eb;
+    left: 1rem;
+    max-width: min(420px, calc(100vw - 2rem));
+    padding: 1rem;
+    position: fixed;
+    z-index: 9999;
+}
+
+.analytics-preferences-panel[hidden] {
+    display: none;
+}
+
+.analytics-preferences-heading {
+    align-items: center;
+    display: flex;
+    font-size: 1.05rem;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.analytics-preferences-panel p {
+    color: #cbd5e1;
+    font-family: Arial, sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    margin: 0.7rem 0;
+}
+
+.analytics-preferences-actions {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.analytics-preferences-actions button,
+.analytics-preferences-close {
+    appearance: none;
+    background: #111827;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 9px;
+    color: #f8fafc;
+    cursor: pointer;
+    font: inherit;
+    padding: 0.65rem 0.75rem;
+    text-align: left;
+}
+
+.analytics-preferences-actions button:hover,
+.analytics-preferences-actions button:focus-visible,
+.analytics-preferences-actions button[aria-pressed="true"] {
+    border-color: #22d3ee;
+    color: #22d3ee;
+    outline: none;
+}
+
+.analytics-preferences-close {
+    font-size: 1.25rem;
+    line-height: 1;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+}
+
+.analytics-preferences-panel small {
+    color: #94a3b8;
+    display: block;
+    font-family: Arial, sans-serif;
+    margin: 0.75rem 0 0.45rem;
+}
+
+.analytics-preferences-panel > a {
+    color: #67e8f9;
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+}
+
+@media (max-width: 520px) {
+    .analytics-preferences-panel {
+        bottom: 0.5rem;
+        left: 0.5rem;
+        max-width: calc(100vw - 1rem);
+    }
+}

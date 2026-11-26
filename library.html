@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/css/detail.css">
+    <link rel="stylesheet" href="/css/library.css">
+    <link rel="icon" type="image/png" href="img/favcoin.png">
+    <title>My Arcade Library | Favorites and Local Imports | Arcade World</title>
+    <meta name="description" content="Keep favorite arcade games, recent sessions and local ROM import history in your Arcade World library.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arcade-world.web.app/library.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="My Arcade Library | Arcade World">
+    <meta property="og:description" content="Favorites, recent games and local import history for Arcade World players.">
+    <meta property="og:url" content="https://arcade-world.web.app/library.html">
+    <meta property="og:image" content="https://arcade-world.web.app/img/gamesbg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#08090d">
+    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "My Arcade Library",
+            "url": "https://arcade-world.web.app/library.html",
+            "description": "A local Arcade World page for favorite games, recent sessions and ROM import history."
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="help.html">HELP</a>
+        <a href="freeplay.html">FREEPLAY</a>
+        <a href="library.html">LIBRARY</a>
+        <a href="blog.html">BLOG</a>
+        <a href="games.html">GAMES</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><i class="fa fa-bars"></i></a>
+    </nav>
+
+    <main>
+        <div class="breadcrumb"><a href="index.html">Home</a> / My Library</div>
+        <section class="hero-detail library-hero">
+            <div>
+                <p class="eyebrow">Local player profile</p>
+                <h1>My Arcade Library</h1>
+                <p>Favorites, recent sessions and local imports live in this browser or desktop app. Arcade World stores only metadata here, not your ROM files.</p>
+                <div class="cta-row">
+                    <a class="button" href="games.html">Browse games</a>
+                    <a class="button secondary" href="player.html?local=1">Import local ROM</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="meta-grid">
+            <div class="meta-card"><span>Favorites</span><strong id="favoriteCount">0</strong></div>
+            <div class="meta-card"><span>Recent</span><strong id="recentCount">0</strong></div>
+            <div class="meta-card"><span>Local imports</span><strong id="importCount">0</strong></div>
+        </section>
+
+        <section class="library-section">
+            <div class="section-title">
+                <p class="eyebrow">Saved cabinets</p>
+                <h2>Favorites</h2>
+            </div>
+            <div class="library-grid" id="favoriteLibrary"></div>
+        </section>
+
+        <section class="library-section">
+            <div class="section-title">
+                <p class="eyebrow">Continue playing</p>
+                <h2>Recent sessions</h2>
+            </div>
+            <div class="library-grid" id="recentLibrary"></div>
+        </section>
+
+        <section class="library-section">
+            <div class="section-title">
+                <p class="eyebrow">Local-only history</p>
+                <h2>Imported ROMs</h2>
+            </div>
+            <div class="library-grid" id="importLibrary"></div>
+        </section>
+    </main>
+
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
+    <script src="data/games-data.js"></script>
+    <script src="main.js?v=6"></script>
+    <script src="library.js"></script>
+</body>
+</html>

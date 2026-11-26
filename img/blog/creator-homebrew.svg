@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#090a10"/>
+  <path d="M250 510h700V210H250z" fill="#11131d" stroke="#22d3ee" stroke-width="8"/>
+  <path d="M320 300h220v130H320z" fill="#050609" stroke="#c8ff4d" stroke-width="8"/>
+  <path d="M630 300h250M630 360h180M630 420h220" stroke="#f7f7fb" stroke-width="14"/>
+  <path d="M360 365h40v-40h40v40h40v40h-120z" fill="#ff2f7d"/>
+  <text x="80" y="112" fill="#f7f7fb" font-family="monospace" font-size="67" font-weight="700">CREATOR ROUTE</text>
+  <text x="82" y="166" fill="#b8bed2" font-family="monospace" font-size="30">official links beat hidden ROM dumps</text>
+</svg>

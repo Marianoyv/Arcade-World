@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#08090d"/>
+  <path d="M0 540C180 430 280 600 430 470s260-40 390-140 210-40 380-150v540H0z" fill="#11131d"/>
+  <g fill="none" stroke-width="9" stroke-linecap="round">
+    <path d="M210 265c28-78 132-92 186-25 75-54 180 2 180 92H210z" stroke="#22d3ee"/>
+    <path d="M640 415h230" stroke="#c8ff4d"/>
+    <path d="M640 455h160" stroke="#ffbd3d"/>
+    <path d="M640 495h295" stroke="#ff2f7d"/>
+  </g>
+  <rect x="170" y="385" width="300" height="160" rx="26" fill="#151827" stroke="#22d3ee" stroke-width="7"/>
+  <circle cx="250" cy="465" r="32" fill="#050609" stroke="#ff2f7d" stroke-width="8"/>
+  <path d="M250 432v66M217 465h66" stroke="#f7f7fb" stroke-width="12"/>
+  <circle cx="378" cy="440" r="18" fill="#c8ff4d"/>
+  <circle cx="418" cy="482" r="18" fill="#ffbd3d"/>
+  <text x="80" y="128" fill="#f7f7fb" font-family="monospace" font-size="68" font-weight="700">CLOUD VS LOCAL</text>
+  <text x="82" y="182" fill="#b8bed2" font-family="monospace" font-size="30">instant access is nice, input lag is not</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Street Fighter II Arcade Basics</title>
+  <desc id="desc">Arcade World editorial cover for Game guide</desc>
+  <rect width="1200" height="720" fill="#08090d"/>
+  <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M120 0v720M240 0v720M360 0v720M480 0v720M600 0v720M720 0v720M840 0v720M960 0v720M1080 0v720" stroke="#171a25" stroke-width="2"/>
+  <rect x="48" y="48" width="1104" height="624" rx="28" fill="none" stroke="#ffbd3d" stroke-width="6"/>
+  <rect x="80" y="82" width="520" height="54" rx="27" fill="#ffbd3d"/>
+  <text x="108" y="120" fill="#08090d" font-family="monospace" font-size="25" font-weight="700">ARCADE WORLD // GAME GUIDE</text>
+  <circle cx="850" cy="149" r="8" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="965" cy="224" r="12" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="842" cy="555" r="16" fill="#22d3ee" opacity=".55"/>
+  <circle cx="781" cy="405" r="8" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="930" cy="480" r="12" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="1005" cy="331" r="16" fill="#22d3ee" opacity=".55"/>
+  <circle cx="1042" cy="181" r="8" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="1061" cy="256" r="12" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="870" cy="342" r="150" fill="none" stroke="#ffbd3d" stroke-width="18"/>
+  <circle cx="870" cy="342" r="72" fill="#ff2f7d"/>
+  <path d="M870 166v352M694 342h352" stroke="#08090d" stroke-width="24"/>
+  <rect x="80" y="184" width="86" height="12" fill="#ff2f7d"/>
+  <text x="80" y="300" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">STREET FIGHTER</text>
+  <text x="80" y="370" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">II ARCADE</text>
+  <text x="80" y="440" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">BASICS</text>
+  <text x="82" y="626" fill="#b8bed2" font-family="monospace" font-size="24">GUIDES · CULTURE · PRESERVATION</text>
+</svg>

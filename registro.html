@@ -2,135 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/registro.css">
-    <link rel="icon" type="image/png" href="Img/favcoin.png"/>
-    <script src="https://kit.fontawesome.com/1f19e4a1f9.js" crossorigin="anonymous"></script>
-    <title>Registro</title>
-    <link rel="stylesheet" href="regnav.css">
-    <link rel="icon" type="image/png" href="img/favcoin.png" />
-    <script src="https://kit.fontawesome.com/1f19e4a1f9.js" crossorigin="anonymous"></script>
-    <title>Registro</title>
+    <link rel="stylesheet" href="/css/detail.css">
+    <link rel="stylesheet" href="/css/support.css">
+    <link rel="icon" type="image/png" href="/img/favcoin.png">
+    <title>Accounts Are Not Live Yet | Arcade World</title>
+    <meta name="description" content="Arcade World accounts are not live yet. Favorites, recent games and local imports currently stay on this device.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#08090d">
 </head>
-
 <body>
-
-     <!--Navbar-->
-
-    <!--Navbar-->
-    <div class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="insercoin">Insert<br>Coin</a>
-        <a href="help.html">HELP</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="about_us.html">ABOUT</a>
-        <a href="games.html">GAMES</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunc()">
-        <i class="fa fa-bars"></i></a>
-</div>
-  
-  <script>
-    function myFunc() { 
-        var menu = document.getElementById("nav");
-    if (menu.className === "navbar") {
-        menu.className += " responsive";
-      } else {
-        menu.className = "navbar";}
-    }
-    </script>
-
-<!--main-->
-
-    <main>
-    <section class="main">
-    
-        <div class="container">
-       <h2 style="color: white" >Registrate!</h2>
-      
-    
-       <form action="destino.html" id="formulario">
-         <fieldset> 
-          
-           <p style="color:white ;">Usuario: <input type="text" name="usuario" id="usuario"></p><br><br>
-           <p style="color:white ;">Clave: <input type="password" name="clave" id="clave"></p><br><br>
-           <p style="color:white ;">Confirma tu Clave: <input type="password" name="clave2" id="clave2"></p><br><br>
-           <p style="color:white ;">Correo Electronico: <input type="text" name="email" id="email"> <br><br>
-            <input type="submit" value="Enviar">
-           <input type="reset" value="Cancelar"><br><br>
-     </fieldset>  
-   </form><br><br>
-   
-       <script>
- document.addEventListener("DOMContentLoaded", function () {
-           document.getElementById("formulario").addEventListener('submit', validacion);
-       });
-
-             function validacion(evento) {
-           evento.preventDefault(); //Evita que se envie el formulario
-           var usuario = document.getElementById('usuario').value;
-           if (usuario.length == 0) {
-               alert('No has escrito nada en el usuario');
-               return;
-           }
-           var clave = document.getElementById('clave').value;
-           if (clave.length < 6) {
-               alert('La clave no es válida');
-               return;
-           }
-          
-           var clave2 = document.getElementById('clave2').value;
-           if (clave!=clave2) {
-               alert('La clave no es igual');
-               return;
-           }
-
-            var email= document.getElementById('email').value;
-           if  (!(/^\w+([\.-]?\w+)*@(?:|hotmail|outlook|yahoo|live|gmail|edu)\.(?:|com|ar)+$/.test(email))){
-           alert('El correo electronico es incorrecto');
-           return;  
-           }
-           this.submit();
-       }
-   
-
-       </script>
-
-
-   </section>
-</main>
-
-
-<!--Footer-->
-
-<footer class="pie-pagina">
-    <div class ="grupo">
-        <div class = "box">
-                <a href="index.html"><img src="img/logo.png" alt="coin"></a>
-        </div>
-        <div class ="box">
-            <h2>Sobre nosotros</h2>
-            <p>En inster coin podras comprar los ultimos <br>
-                videojuegos al mejor precioy con ofertas <br>
-                cada semana, ademas encontraras noticias <br>
-                del mundo de los videojuegos.<br><br>
-                Nos encontramos en av.cabildo 2043<br>
-                ¡Te Esperamos!
-            </p>
-        </div>
-        <div class="box">
-            <h2>Encuentranos en</h2>
-            <div class="red-social">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                <a href="https://twitter.com" class="fa fa-twitter"></a>
-                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
-            </div>
-        </div>
-        <div class="box s">
-        <small>&copy; 2022 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
-        </div>
-    </div>
-</footer>
-<script src="main.js"></script>
+    <main class="error-main">
+        <section class="error-panel panel">
+            <p class="eyebrow">Player accounts</p>
+            <h1>No signup needed yet.</h1>
+            <p>Arcade World does not have online accounts today, so no password should be entered here. Favorites, recent games and local import history are saved only on this device.</p>
+            <div class="cta-row"><a class="button" href="library.html">Open My Library</a><a class="button secondary" href="games.html">Browse games</a></div>
+        </section>
+    </main>
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
 </body>
 </html>

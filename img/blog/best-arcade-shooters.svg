@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Best Arcade Shooters for High Score Runs</title>
+  <desc id="desc">Arcade World editorial cover for Arcade lists</desc>
+  <rect width="1200" height="720" fill="#08090d"/>
+  <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M120 0v720M240 0v720M360 0v720M480 0v720M600 0v720M720 0v720M840 0v720M960 0v720M1080 0v720" stroke="#171a25" stroke-width="2"/>
+  <rect x="48" y="48" width="1104" height="624" rx="28" fill="none" stroke="#ff2f7d" stroke-width="6"/>
+  <rect x="80" y="82" width="520" height="54" rx="27" fill="#ff2f7d"/>
+  <text x="108" y="120" fill="#08090d" font-family="monospace" font-size="25" font-weight="700">ARCADE WORLD // ARCADE LISTS</text>
+  <circle cx="792" cy="392" r="8" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="936" cy="238" r="12" fill="#22d3ee" opacity=".55"/>
+  <circle cx="1008" cy="564" r="16" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="1044" cy="410" r="8" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="1062" cy="256" r="12" fill="#22d3ee" opacity=".55"/>
+  <circle cx="891" cy="582" r="16" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="985" cy="428" r="8" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="1032" cy="274" r="12" fill="#22d3ee" opacity=".55"/>
+  <rect x="700" y="180" width="340" height="330" rx="36" fill="#11131d" stroke="#ff2f7d" stroke-width="16"/>
+  <path d="M760 270h220M760 345h150M760 420h190" stroke="#22d3ee" stroke-width="24"/>
+  <circle cx="1010" cy="510" r="48" fill="#c8ff4d"/>
+  <rect x="80" y="184" width="86" height="12" fill="#22d3ee"/>
+  <text x="80" y="300" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">BEST ARCADE</text>
+  <text x="80" y="370" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">SHOOTERS FOR</text>
+  <text x="80" y="440" fill="#f7f7fb" font-family="monospace" font-size="54" font-weight="700">HIGH SCORE RUNS</text>
+  <text x="82" y="626" fill="#b8bed2" font-family="monospace" font-size="24">GUIDES · CULTURE · PRESERVATION</text>
+</svg>

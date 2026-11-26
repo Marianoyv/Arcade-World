@@ -1,0 +1,79 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "ultimechs-multiplayer-ends-october-20",
+    "title": "Ultimechs Multiplayer Ends October 20 as the VR Game Leaves Stores",
+    "shortTitle": "Ultimechs Multiplayer Ends October 20",
+    "category": "Preservation",
+    "publishedAt": "2026-10-12T10:01:30-03:00",
+    "modifiedAt": "2026-10-12T10:01:30-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "Ultimechs will lose online multiplayer and leave VR stores on October 20, while its single-player mode remains available to existing owners.",
+    "quickTake": "Resolution Games will end Ultimechs online multiplayer and delist the free VR sports game on October 20, but existing owners keep a single-player version.",
+    "whyCare": "The team-based competition and spectator client disappear with only 12 days of notice, while players have a short window to add the game and play final online matches.",
+    "playerMove": "Add the free game to your library before October 20, use any remaining UltiCoins, and schedule final multiplayer sessions before the still-unconfirmed cutoff time.",
+    "image": "img/blog/ultimechs-multiplayer-ends-october-20.png",
+    "imageAlt": "An empty futuristic VR sports arena with two inactive mechanical gauntlets resting beside a glowing ball.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "Ultimechs",
+        "Resolution Games",
+        "VR multiplayer shutdown",
+        "VR game delisting",
+        "SteamVR",
+        "Meta Quest"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Resolution Games announced on October 8, 2026 that Ultimechs will end online multiplayer support on October 20. The free-to-play VR arena game will leave the Steam Store that day, and an equivalent developer notice on the Meta Horizon Store confirms the same transition for Quest. Ultimechs Spectator, the separate Steam client built for watching matches, will also be delisted and will no longer be able to spectate games.",
+                "The shutdown does not make the entire game unplayable. Resolution Games says people who already have Ultimechs will still be able to enter single-player matches after October 20. In-app purchases have already been disabled, but previously purchased UltiCoins will remain spendable even after multiplayer services end. The studio did not provide a reason for the decision or an exact shutdown time."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "Ultimechs launched in September 2022 as a multiplayer-first VR sports game built around one-on-one and two-on-two competition. Its surviving bot matches preserve the basic movement, aiming and scoring systems, but they cannot preserve team coordination, matchmaking or the competitive community that defined the original pitch. The Spectator client losing its only function also closes the practical route for organized match broadcasts.",
+                "The notice gives players 12 days between announcement and shutdown. That is a narrow preservation window even for a free game: anyone who wants the remaining single-player version should claim it before delisting, while existing competitors have limited time for final online sessions. The announcement promises continued single-player access, but it does not explain future redownload rules, platform-specific entitlement behavior or long-term compatibility with new headset software."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "Keeping a functional single-player mode is materially better than turning Ultimechs into an unusable library icon. Resolution Games is preserving its core mechanics and letting purchased currency retain some use. That deserves credit, especially in VR, where a smaller audience can make online populations and server support fragile.",
+                "It is still an incomplete preservation outcome. Multiplayer was not a side feature: the official store description sells Ultimechs as a cooperative and competitive sport, and the separate Spectator app existed for creators and tournament organizers. A local network mode, private server package or peer-to-peer option would preserve more of that design, but Resolution Games has announced none of those. Server-cost explanations circulating elsewhere are interpretation, not a confirmed reason from the studio."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Before October 20, new players can still add Ultimechs to their Steam or Quest libraries, and current players can use remaining UltiCoins and arrange last multiplayer matches. Because no cutoff time or time zone has been published, waiting until the final day adds unnecessary risk. Players who want the retained version should also install the latest build before service ends rather than assume every storefront will handle later downloads identically.",
+                "On October 20, online matchmaking ends, Ultimechs and Ultimechs Spectator leave their stores, and the spectator client stops working. The confirmed post-shutdown product is single-player Ultimechs against bots. Refunds, private servers, LAN play, source-code release and any migration of cosmetics or progression to another game remain unannounced, so they should not be expected without a new statement from Resolution Games."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Resolution Games on Steam — official multiplayer shutdown and delisting notice",
+            "url": "https://store.steampowered.com/news/app/1657780/view/1846018067929686"
+        },
+        {
+            "label": "Meta Horizon Store — official Quest transition notice",
+            "url": "https://www.meta.com/experiences/quest/developer-post/1182617490767650/"
+        },
+        {
+            "label": "VR.org — independent report on the 12-day notice and surviving single-player mode",
+            "url": "https://vr.org/articles/ultimechs-multiplayer-shutdown-october-20-spectator-vrml-2026"
+        },
+        {
+            "label": "UploadVR — independent confirmation of the all-platform delisting",
+            "url": "https://www.uploadvr.com/futuristic-arena-sports-game-ultimechs-will-be-delisted/"
+        }
+    ]
+}

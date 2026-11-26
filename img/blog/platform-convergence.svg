@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#08090d"/>
+  <circle cx="600" cy="360" r="190" fill="none" stroke="#22d3ee" stroke-width="8"/>
+  <circle cx="600" cy="360" r="92" fill="#11131d" stroke="#c8ff4d" stroke-width="8"/>
+  <g fill="#151827" stroke="#ff2f7d" stroke-width="7">
+    <rect x="124" y="260" width="220" height="140" rx="20"/>
+    <rect x="856" y="248" width="220" height="164" rx="34"/>
+    <rect x="500" y="80" width="200" height="130" rx="18"/>
+    <rect x="488" y="530" width="224" height="96" rx="46"/>
+  </g>
+  <g stroke="#ffbd3d" stroke-width="10" stroke-linecap="round">
+    <path d="M344 330h164M692 330h164M600 210v58M600 452v78"/>
+  </g>
+  <text x="80" y="115" fill="#f7f7fb" font-family="monospace" font-size="64" font-weight="700">EVERY DEVICE</text>
+  <text x="82" y="169" fill="#b8bed2" font-family="monospace" font-size="30">same library, less platform drama</text>
+</svg>

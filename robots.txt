@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arcade-world.web.app/sitemap.xml
+Sitemap: https://arcade-world.web.app/news-sitemap.xml

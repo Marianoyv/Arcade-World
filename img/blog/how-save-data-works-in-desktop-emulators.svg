@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">How Save Data Works in Desktop Emulators</title>
+  <desc id="desc">Arcade World editorial cover for Guide</desc>
+  <rect width="1200" height="720" fill="#08090d"/>
+  <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M120 0v720M240 0v720M360 0v720M480 0v720M600 0v720M720 0v720M840 0v720M960 0v720M1080 0v720" stroke="#171a25" stroke-width="2"/>
+  <rect x="48" y="48" width="1104" height="624" rx="28" fill="none" stroke="#c8ff4d" stroke-width="6"/>
+  <rect x="80" y="82" width="520" height="54" rx="27" fill="#c8ff4d"/>
+  <text x="108" y="120" fill="#08090d" font-family="monospace" font-size="25" font-weight="700">ARCADE WORLD // GUIDE</text>
+  <circle cx="741" cy="284" r="8" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="730" cy="511" r="12" fill="#22d3ee" opacity=".55"/>
+  <circle cx="905" cy="481" r="16" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="812" cy="451" r="8" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="946" cy="198" r="12" fill="#22d3ee" opacity=".55"/>
+  <circle cx="833" cy="168" r="16" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="776" cy="138" r="8" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="748" cy="589" r="12" fill="#22d3ee" opacity=".55"/>
+  <path d="M706 472V248l164-96 164 96v224l-164 96z" fill="#11131d" stroke="#c8ff4d" stroke-width="16"/>
+  <path d="M774 342h192M870 246v192" stroke="#22d3ee" stroke-width="28"/>
+  <rect x="80" y="184" width="86" height="12" fill="#22d3ee"/>
+  <text x="80" y="300" fill="#f7f7fb" font-family="monospace" font-size="48" font-weight="700">HOW SAVE DATA</text>
+  <text x="80" y="362" fill="#f7f7fb" font-family="monospace" font-size="48" font-weight="700">WORKS IN</text>
+  <text x="80" y="424" fill="#f7f7fb" font-family="monospace" font-size="48" font-weight="700">DESKTOP</text>
+  <text x="80" y="486" fill="#f7f7fb" font-family="monospace" font-size="48" font-weight="700">EMULATORS</text>
+  <text x="82" y="626" fill="#b8bed2" font-family="monospace" font-size="24">GUIDES · CULTURE · PRESERVATION</text>
+</svg>

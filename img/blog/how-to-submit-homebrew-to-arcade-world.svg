@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">How to Submit Homebrew to Arcade World</title>
+  <desc id="desc">Arcade World editorial cover for Community</desc>
+  <rect width="1200" height="720" fill="#08090d"/>
+  <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M120 0v720M240 0v720M360 0v720M480 0v720M600 0v720M720 0v720M840 0v720M960 0v720M1080 0v720" stroke="#171a25" stroke-width="2"/>
+  <rect x="48" y="48" width="1104" height="624" rx="28" fill="none" stroke="#ffbd3d" stroke-width="6"/>
+  <rect x="80" y="82" width="520" height="54" rx="27" fill="#ffbd3d"/>
+  <text x="108" y="120" fill="#08090d" font-family="monospace" font-size="25" font-weight="700">ARCADE WORLD // COMMUNITY</text>
+  <circle cx="808" cy="532" r="8" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="944" cy="350" r="12" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="832" cy="168" r="16" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="956" cy="466" r="8" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="1018" cy="284" r="12" fill="#c8ff4d" opacity=".55"/>
+  <circle cx="869" cy="582" r="16" fill="#ff2f7d" opacity=".55"/>
+  <circle cx="794" cy="400" r="8" fill="#ffbd3d" opacity=".55"/>
+  <circle cx="937" cy="218" r="12" fill="#c8ff4d" opacity=".55"/>
+  <path d="M710 430l92-180 92 180 92-180 92 180" fill="none" stroke="#ffbd3d" stroke-width="30" stroke-linejoin="round"/>
+  <circle cx="802" cy="250" r="38" fill="#c8ff4d"/>
+  <circle cx="986" cy="250" r="38" fill="#ff2f7d"/>
+  <rect x="80" y="184" width="86" height="12" fill="#c8ff4d"/>
+  <text x="80" y="300" fill="#f7f7fb" font-family="monospace" font-size="60" font-weight="700">SUBMIT HOMEBREW</text>
+  <text x="80" y="378" fill="#f7f7fb" font-family="monospace" font-size="60" font-weight="700">TO ARCADE WORLD</text>
+  <text x="82" y="626" fill="#b8bed2" font-family="monospace" font-size="24">GUIDES · CULTURE · PRESERVATION</text>
+</svg>

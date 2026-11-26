@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap');
 /* Universal Selectors */
-@font-face {
-    font-family: 'Arcade';
-    src: url('/font/ARCADE_N.TTF') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
 
 *{box-sizing: border-box;}
 
@@ -14,7 +8,7 @@ body {
     padding: 0;
     background-color: #242424;
     color: #fff;
-    font-family: 'Arcade';
+    font-family: 'Chakra Petch', sans-serif;
 
 }
 html {

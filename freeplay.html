@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/css/games.css?v=4">
+    <link rel="icon" type="image/png" href="img/favcoin.png">
+    <title>Freeplay Vault | Homebrew Games and Creator Drops</title>
+    <meta name="description" content="Browse free homebrew games, demos and creator-approved drops for Arcade World local import.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arcade-world.web.app/freeplay.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Freeplay Vault | Arcade World">
+    <meta property="og:description" content="Homebrew games, demos and releases straight from creators and official directories.">
+    <meta property="og:url" content="https://arcade-world.web.app/freeplay.html">
+    <meta property="og:image" content="https://arcade-world.web.app/img/gamesbg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#08090d">
+    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Freeplay Vault",
+            "description": "Homebrew games, demos and creator-approved releases for local play.",
+            "url": "https://arcade-world.web.app/freeplay.html"
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="help.html">HELP</a>
+        <a href="freeplay.html">FREEPLAY</a>
+        <a href="library.html">LIBRARY</a>
+        <a href="blog.html">BLOG</a>
+        <a href="games.html">GAMES</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><i class="fa fa-bars"></i></a>
+    </nav>
+
+    <main>
+        <section class="game-room-hero">
+            <div>
+                <p class="eyebrow">Creator-approved drops</p>
+                <h1>Freeplay Vault</h1>
+                <p>Homebrew games, demos and retro releases you can grab from their creators, then load with Arcade World's local player.</p>
+            </div>
+            <div class="room-stats" aria-label="Freeplay catalog stats">
+                <span><strong id="legalGameCount">0</strong> Drops</span>
+                <span><strong id="legalPlatformCount">0</strong> Platforms</span>
+                <span>Straight from creators</span>
+            </div>
+        </section>
+
+        <section class="game-tools" aria-label="Freeplay filters">
+            <label class="search-box">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input id="legalSearch" type="search" placeholder="Search games, platform or creator" autocomplete="off">
+            </label>
+            <select id="legalPlatformFilter" class="tool-select" aria-label="Filter by platform">
+                <option value="all">All platforms</option>
+            </select>
+            <a class="import-link" href="player.html?local=1">Load your download</a>
+        </section>
+
+        <section class="game-grid" id="legalGameGrid" aria-live="polite"></section>
+        <p class="empty-state" id="legalEmptyState" hidden>No drops match that search.</p>
+    </main>
+
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
+    <script src="data/legal-games-data.js"></script>
+    <script src="main.js?v=6"></script>
+    <script src="legal-games.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "name": "arcade-world",
+  "version": "2.0.0",
+  "description": "Arcade World browser game room with optional EmulatorJS player.",
+  "main": "electron/main.js",
+  "scripts": {
+    "covers:blog": "node scripts/generate-blog-covers.js",
+    "generate:seo": "node scripts/generate-seo-pages.js",
+    "content:check": "node scripts/validate-content.js",
+    "content:build": "npm run content:check && npm run generate:seo",
+    "build:web": "powershell -ExecutionPolicy Bypass -File build-static.ps1",
+    "deploy:web": "powershell -ExecutionPolicy Bypass -File deploy-static.ps1",
+    "news:new": "node scripts/new-article.js",
+    "analytics:import": "python scripts/import-analytics.py",
+    "analytics:weekly": "powershell -ExecutionPolicy Bypass -File scripts/collect-weekly-analytics.ps1",
+    "test:analytics": "node --test tests/analytics.test.cjs",
+    "test:analytics-import": "python -B -m unittest discover -s tests -p \"test_import_analytics.py\"",
+    "test:launcher": "node scripts/test-desktop-launcher.js",
+    "serve": "python -m http.server 8000",
+    "desktop": "electron .",
+    "desktop:build": "electron-builder",
+    "desktop:build:unsigned": "electron-builder --config.win.signAndEditExecutable=false --config.directories.output=dist-release"
+  },
+  "build": {
+    "appId": "com.arcadeworld.app",
+    "productName": "Arcade World",
+    "files": [
+      "**/*",
+      "!node_modules/.cache/**",
+      "!Readme/**",
+      "!analytics/**",
+      "!analytics-local.json",
+      "!analytics-local.example.json",
+      "!analytics-ga4-setup.json",
+      "!ANALYTICS.md",
+      "!DESKTOP_APP.md",
+      "!EDITORIAL_PLAYBOOK.md",
+      "!credentials/**",
+      "!content/**",
+      "!scripts/**",
+      "!tests/**",
+      "!site-dist/**",
+      "!build-static.ps1",
+      "!deploy-static.ps1",
+      "!firebase.json",
+      "!.firebaserc",
+      "!.firebase/**",
+      "!.git/**",
+      "!.gitignore",
+      "!dist*/**",
+      "!emulators/**",
+      "!roms/**/*.iso",
+      "!roms/**/*.bin",
+      "!roms/**/*.cue",
+      "!roms/**/*.chd",
+      "!roms/**/*.cso",
+      "!roms/**/*.gz",
+      "!*.log"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8"
+  }
+}

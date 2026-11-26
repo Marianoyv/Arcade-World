@@ -4,130 +4,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="icon" type="image/png" href="Img/favcoin.png">
-    <title>Home</title>
-    <meta name="description" content="Juegos Arcade en Stream, proyecto de codo a codo, comision 22511 (G-8)">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/css/index.css?v=7">
+    <link rel="icon" type="image/png" href="img/favcoin.png">
+    <title>Arcade World | 51 Arcade and Console Games</title>
+    <meta name="description" content="Explore 51 arcade and console games in Arcade World, with browser cabinets, local imports and an expanding desktop emulator launcher.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="fizyV2fttAU_eG8-ted7-ewal3Kgh6Egm0nMpffiGJM">
+    <link rel="canonical" href="https://arcade-world.web.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Arcade World | Play Classic Arcade Games Online">
+    <meta property="og:description" content="An expanding arcade and console library with searchable categories, browser play and desktop emulator launchers.">
+    <meta property="og:url" content="https://arcade-world.web.app/">
+    <meta property="og:image" content="https://arcade-world.web.app/img/arcade-world-cover.png">
+    <meta property="og:image:width" content="1732">
+    <meta property="og:image:height" content="908">
+    <meta property="og:image:alt" content="Neon-lit gaming desk with an arcade stick, controller and golden arcade tokens">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Arcade World | Play Classic Arcade Games Online">
+    <meta name="twitter:description" content="Search, filter and launch arcade and console games from one growing library.">
+    <meta name="twitter:image" content="https://arcade-world.web.app/img/arcade-world-cover.png">
+    <meta name="twitter:image:alt" content="Neon-lit gaming desk with an arcade stick, controller and golden arcade tokens">
+    <meta name="theme-color" content="#08090d">
     <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Arcade World",
+            "url": "https://arcade-world.web.app/",
+            "description": "A retro browser arcade with classic playable cabinets.",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://arcade-world.web.app/games.html?search={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
 </head>
 <body>
-    <!--Navbar-->
-    <div class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="insercoin">Insert<br>Coin</a>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
         <a href="help.html">HELP</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="about.html">ABOUT</a>
+        <a href="freeplay.html">FREEPLAY</a>
+        <a href="library.html">LIBRARY</a>
+        <a href="blog.html">BLOG</a>
         <a href="games.html">GAMES</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunc()">
-        <i class="fa fa-bars"></i></a>
-</div>
-  
-  <script>
-    function myFunc() { 
-        var menu = document.getElementById("nav");
-    if (menu.className === "navbar") {
-        menu.className += " responsive";
-      } else {
-        menu.className = "navbar";}
-    }
-    </script>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
 
-    <!--Header-->
-    
-
-    <div class="welcome">
-    <video class="full" autoplay muted loop>
-            <source src="img/tunell.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-    </video>
-
-        <div class="title">
-            <h1>Play Now!</h1>
-            <h2>See our</h2>
-            <div class="btn-game"><a href="games.html">Game Room</a></div>
-        </div>
-
-        <div class="half">
-            <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="registro.html">Register</a></li>
-            <li><a href="help.html">Help</a></li>
-        </ul>
-        </div>
-    </div>
-
-    <div class="btn-up"><a href="#"><i class="fa-regular fa-circle-up"></i></a></div>
-
-    <!--Content-->
-
-    <div class="news">
-        <h2>Arcade Room</h2>
-        <div class="container flex">
-            <div class="card">
-                <div class="screen">
-                 <iframe width="250" height="220" src="https://www.youtube.com/embed/ozyq3PDRQsU?start=494" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <main>
+        <section class="hero">
+            <div class="pixel-stage" aria-hidden="true">
+                <span class="pixel-orb"></span>
+                <span class="tetromino t-one"></span>
+                <span class="tetromino t-two"></span>
+                <span class="tetromino t-three"></span>
+                <span class="maze-line"></span>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="eyebrow">Browser arcade room</p>
+                <h1>Arcade World</h1>
+                <p class="hero-copy">Jump into retro classics, chase high scores and keep your favorite cabinets one click away.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="games.html">Play now</a>
+                    <a class="btn secondary" href="games.html">Explore games</a>
                 </div>
             </div>
-            <div class="card" id="card">
-                <div id="popup" class="popup" onclick="myFunction()"><i class="fa-solid fa-power-off"></i></div>
-                <span id="span">
-                <iframe id="atari" src="https://www.retrogames.cc/embed/7642-88-games.html" width="600" height="450" allowfullscreen></iframe>
-                </span>
-    <script>
-    function myFunction() {
-        var card = document.getElementById("card");
-        var popup = document.getElementById("popup")
-        span.classList.toggle("show");
-        card.classList.toggle("on");
-        popup.classList.toggle("off");
-      }
-      </script>
+            <aside class="hero-panel" aria-label="Arcade catalog stats">
+                <span>Arcade catalog</span>
+                <strong id="heroGameCount">51 Games</strong>
+                <small id="heroSystemCount" title="NES, SNES, Game Boy, Game Boy Advance, Genesis / Mega Drive, Arcade / MAME 2003 and PlayStation 2 / PCSX2">7 systems supported</small>
+            </aside>
+        </section>
+
+        <section class="featured" id="featured">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Games in rotation</p>
+                    <h2>Your next run is already loading</h2>
+                </div>
+                <a id="homeCategoryLink" href="games.html">Browse all games</a>
             </div>
-            <div class="card">
-                <div class="screen">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.44367067004!2d-58.50333837084402!3d-34.615662457897784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires!5e0!3m2!1sen!2sar!4v1666107168743!5m2!1sen!2sar" width="250" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+
+            <div class="category-selector">
+                <span>Pick a lane</span>
+                <div class="category-bar" id="homeGameCategories" aria-label="Choose a game category"></div>
             </div>
-            <div class="card">
-                <div class="screen">
-                    <ul>
-                        <li><a href="registro.html">log in <i class="fa-solid fa-right-to-bracket"></i></a></li>
-                        <li><a href="registro.html">Sing up <i class="fa-solid fa-user-plus"></i></a></li>
-                        <li><a href="contact.html">leave us a <i class="fa-solid fa-envelope"></i></a></li>
-                    </ul>
+
+            <div class="showcase-stage" id="homeGameShowcase">
+                <div class="featured-grid" id="homeGameTrack" aria-live="off"></div>
+                <div class="showcase-footer">
+                    <div class="rotation-status">
+                        <span id="homeRotationStatus">Loading catalog...</span>
+                        <span class="rotation-progress" aria-hidden="true"><span id="homeRotationProgress"></span></span>
+                    </div>
+                    <div class="showcase-controls" aria-label="Game rotation controls">
+                        <button id="homeGamesPrev" type="button" aria-label="Previous games"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                        <button id="homeGamesPause" type="button" aria-label="Pause game rotation"><i class="fa fa-pause" aria-hidden="true"></i></button>
+                        <button id="homeGamesNext" type="button" aria-label="Next games"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <noscript><p class="no-script-games"><a href="games.html">Open the full Game Room</a></p></noscript>
+        </section>
 
+        <section class="how-it-works" id="how-it-works">
+            <div class="section-heading how-heading">
+                <div>
+                    <p class="eyebrow">How it works</p>
+                    <h2>Three moves. Then you are playing.</h2>
+                </div>
+                <a href="help.html">Need more help?</a>
+            </div>
 
-    <!--Footer-->
+            <div class="how-steps">
+                <article class="how-step">
+                    <span class="step-number">01</span>
+                    <span class="step-icon" aria-hidden="true"><i class="fa fa-gamepad"></i></span>
+                    <h3>Pick a game</h3>
+                    <p>Browse the Game Room or jump straight into a category.</p>
+                    <a href="games.html">Open Game Room <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+                <article class="how-step">
+                    <span class="step-number">02</span>
+                    <span class="step-icon" aria-hidden="true"><i class="fa fa-play"></i></span>
+                    <h3>Press play</h3>
+                    <p>Launch a ready cabinet or load a game from your device.</p>
+                    <a href="freeplay.html">See play options <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+                <article class="how-step">
+                    <span class="step-number">03</span>
+                    <span class="step-icon" aria-hidden="true"><i class="fa fa-star"></i></span>
+                    <h3>Keep your favorites</h3>
+                    <p>Save games and find your recent sessions in one place.</p>
+                    <a href="library.html">Open My Library <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+            </div>
+
+            <p class="how-note"><strong>No account needed.</strong> Your favorites stay on this device.</p>
+        </section>
+
+        <section class="play-zone">
+            <div class="section-heading">
+                <p class="eyebrow">Instant play</p>
+                <h2>One cabinet is always powered on</h2>
+            </div>
+            <div class="cabinet">
+                <div class="cabinet-screen">
+                    <iframe src="https://www.retrogames.cc/embed/7642-88-games.html" title="88 Games arcade emulator" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                </div>
+                <div class="cabinet-info">
+                    <span>Now playing</span>
+                    <h3>88 Games</h3>
+                    <p>Track and field arcade action directly in the browser. Use the full game room for more cabinets.</p>
+                    <a class="btn primary" href="games.html">More games</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="pie-pagina">
-        <div class ="grupo">
-            <div class = "box">
-                    <a href="index.html"><img src="img/logo.png" alt="coin"></a>
+        <div class="grupo">
+            <div class="box">
+                <a href="index.html"><img src="img/logo.png" alt="Insert Coin"></a>
             </div>
-            <div class ="box sobren">
+            <div class="box sobren">
                 <h2>Sobre nosotros</h2>
-                <p>Arcade World is the game land of the best exclusive games for you! 
-                    It is free you can play at anytime
-                </p>
+                <p>Arcade World is a free browser arcade for quick retro sessions, favorite classics and high score chasers.</p>
             </div>
             <div class="box">
                 <h2>Encuentranos en</h2>
                 <div class="red-social">
-                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                    <a href="https://twitter.com" class="fa fa-twitter"></a>
-                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook" aria-label="Facebook"></a>
+                    <a href="https://www.instagram.com" class="fa fa-instagram" aria-label="Instagram"></a>
+                    <a href="https://twitter.com" class="fa fa-twitter" aria-label="Twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube" aria-label="YouTube"></a>
                 </div>
             </div>
             <div class="box-s">
-            <small>&copy; 2022 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
+                <small>&copy; 2026 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
             </div>
         </div>
     </footer>
-    <script src="main.js"></script>
+    <script src="analytics-config.js"></script>
+    <script src="analytics.js"></script>
+    <script src="data/games-data.js"></script>
+    <script src="main.js?v=6"></script>
+    <script src="home-games.js?v=7"></script>
 </body>
 </html>

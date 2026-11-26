@@ -1,0 +1,79 @@
+{
+    "status": "published",
+    "type": "news",
+    "slug": "rimworld-1-7-waylith-engine-beta",
+    "title": "RimWorld 1.7 Leaves Unity for Waylith With Saves and Most Mods Intact",
+    "shortTitle": "RimWorld 1.7 Moves to Waylith",
+    "category": "Industry",
+    "publishedAt": "2026-10-14T10:03:00-03:00",
+    "modifiedAt": "2026-10-14T10:03:00-03:00",
+    "author": {
+        "name": "Arcade World Editorial",
+        "type": "Organization",
+        "url": "https://arcade-world.web.app/about.html"
+    },
+    "excerpt": "RimWorld 1.7 is testing Ludeon's Waylith engine with two-way save compatibility, broad mod support and major performance claims.",
+    "quickTake": "Ludeon has moved RimWorld 1.7 from Unity to its own Waylith engine, but the update is currently an opt-in unstable Steam beta rather than the main release.",
+    "whyCare": "Existing 1.6 saves work in both directions and most mods should carry over, while Ludeon's internal tests report substantially faster simulation and loading.",
+    "playerMove": "Keep important saves backed up, check your core mods for 1.7 support, and only opt into the unstable branch if you are comfortable testing unfinished software.",
+    "image": "img/blog/rimworld-1-7-waylith-engine-beta.png",
+    "imageAlt": "An isometric science-fiction colony split between an older mechanical grid and a brighter, faster energy network.",
+    "imageCredit": "Original illustration: Arcade World, generated with OpenAI image tools",
+    "showImageCredit": true,
+    "keywords": [
+        "RimWorld 1.7",
+        "Waylith Engine",
+        "Ludeon Studios",
+        "Unity game engine",
+        "RimWorld mods",
+        "RimWorld saves"
+    ],
+    "sections": [
+        {
+            "title": "What happened",
+            "paragraphs": [
+                "Ludeon Studios announced on October 12 that RimWorld update 1.7 replaces Unity with Waylith, an in-house engine built by the studio. The game is available now on Steam's opt-in unstable branch, while the main branch remains on version 1.6. Ludeon says the engine change leaves the game's look and play unchanged.",
+                "The studio reports performance gains of two to four times in its own tests. Its examples include a late-game colony running 2.2 times faster than version 1.6 and a 1,500-mod pack loading in six minutes instead of 14. Those are developer test results, not a universal benchmark; PC hardware, colony size and mod combinations can produce different outcomes."
+            ]
+        },
+        {
+            "title": "Why it matters",
+            "paragraphs": [
+                "An engine migration can break years of player data and community tools, so compatibility is the most important part of this update. Ludeon says version 1.6 saves load in 1.7 and saves written by 1.7 can return to 1.6. The studio also says the vast majority of mods work without author changes, although a yellow warning may appear until a creator marks a mod as 1.7-compatible.",
+                "The promised gains target long-standing pain points for large colonies and heavily modded installations: startup, save loading, map and world generation, and simulation ticks. There is a hardware caveat. Ludeon warns that PCs more than 10 years old may not run version 1.7, and the studio has not announced when the update will graduate to the main branch."
+            ]
+        },
+        {
+            "title": "The Arcade World take",
+            "paragraphs": [
+                "The most player-friendly decision is two-way save compatibility. It gives testers a practical escape route if an essential mod or unusual setup fails, which lowers the cost of helping Ludeon test such a large technical change. Broad mod compatibility also matters more to RimWorld's longevity than a headline frame-rate number alone.",
+                "The performance figures are promising, and PC Gamer reported strong early user examples, but anecdotal results do not establish a stable baseline. This is still an unstable build, and one early report cited by PC Gamer also described unusually high memory use. Players should treat Waylith as a test candidate until Ludeon ships it on the main branch and mod authors finish checking complex load orders."
+            ]
+        },
+        {
+            "title": "What happens next",
+            "paragraphs": [
+                "Players who want to test version 1.7 can open RimWorld's Steam properties, choose Betas and select the unstable branch. Back up saves first, record the current mod list, and confirm that any must-have framework or total-conversion mods have been tested. Returning to version 1.6 is officially supported for saves, but that promise cannot guarantee every third-party mod state will roll back cleanly.",
+                "Ludeon is collecting bug reports through the official RimWorld development Discord and is asking mod authors to mark tested releases as 1.7-compatible. A stable-release date, final system requirements and independent performance testing across typical hardware remain open. The studio also said Waylith powers another unannounced project, but provided no title, genre, platform or release window."
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "label": "Ludeon Studios — official Waylith Engine and update 1.7 announcement",
+            "url": "https://ludeon.com/blog/2026/10/announcing-the-waylith-engine-and-update-1-7/"
+        },
+        {
+            "label": "Steam News — official RimWorld 1.7 announcement and beta instructions",
+            "url": "https://store.steampowered.com/news/app/294100/view/672882362547178633"
+        },
+        {
+            "label": "PC Gamer — independent confirmation and early player performance context",
+            "url": "https://www.pcgamer.com/gaming-industry/game-development/rimworld-drops-unity-for-its-own-in-house-engine-says-your-saves-still-work-so-do-most-mods-and-the-whole-thing-runs-twice-as-fast/"
+        },
+        {
+            "label": "GamesRadar — independent confirmation of Waylith and Ludeon's next-project tease",
+            "url": "https://www.gamesradar.com/games/simulation/rimworld-devs-are-working-on-something-new-after-13-years-of-the-space-construction-sim-but-it-may-be-a-little-while-before-we-hear-more/"
+        }
+    ]
+}

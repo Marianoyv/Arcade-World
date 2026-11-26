@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Expensive handheld gaming PC arcade illustration</title>
+  <desc id="desc">A neon handheld gaming PC with pixel coins and a rising price graph.</desc>
+  <defs>
+    <style>
+      .bars rect { transform-origin: bottom; animation: barPulse 2.8s steps(4) infinite; }
+      .bars rect:nth-child(2) { animation-delay: .35s; }
+      .bars rect:nth-child(3) { animation-delay: .7s; }
+      .price-line { stroke-dasharray: 520; stroke-dashoffset: 520; animation: drawLine 3.2s ease-in-out infinite; }
+      .coin { animation: coinBlink 1.7s steps(2) infinite; }
+      .screen-lines path { animation: scan 2.4s steps(3) infinite; }
+      @keyframes barPulse { 50% { transform: scaleY(.72); opacity: .72; } }
+      @keyframes drawLine { 45%, 80% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -520; } }
+      @keyframes coinBlink { 50% { opacity: .35; } }
+      @keyframes scan { 50% { transform: translateX(28px); } }
+    </style>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07080d"/>
+      <stop offset="0.55" stop-color="#11131d"/>
+      <stop offset="1" stop-color="#050609"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect width="1200" height="720" fill="url(#grid)"/>
+  <path d="M170 510 C260 360 315 300 430 310 H760 C875 300 950 365 1030 510" fill="none" stroke="#22d3ee" stroke-width="10" stroke-opacity="0.5"/>
+  <g filter="url(#glow)">
+    <rect x="165" y="220" width="720" height="300" rx="104" fill="#151827" stroke="#22d3ee" stroke-width="8"/>
+    <rect x="336" y="256" width="378" height="226" rx="18" fill="#050609" stroke="#30364a" stroke-width="6"/>
+    <rect x="362" y="284" width="326" height="170" fill="#0b1020"/>
+    <g class="screen-lines" fill="#c8ff4d">
+      <path d="M386 330h170v28H386z"/>
+      <path d="M386 374h104v28H386z"/>
+      <path d="M386 418h148v28H386z"/>
+    </g>
+    <circle cx="268" cy="370" r="52" fill="#0b1020" stroke="#ff2f7d" stroke-width="10"/>
+    <path d="M268 316v108M214 370h108" stroke="#f7f7fb" stroke-width="16" stroke-linecap="square"/>
+    <circle class="coin" cx="805" cy="326" r="25" fill="#22d3ee"/>
+    <circle class="coin" cx="846" cy="368" r="25" fill="#ff2f7d"/>
+    <circle class="coin" cx="764" cy="368" r="25" fill="#c8ff4d"/>
+    <circle class="coin" cx="805" cy="410" r="25" fill="#ffbd3d"/>
+  </g>
+  <g font-family="Chakra Petch, monospace" font-weight="700">
+    <g class="bars" fill="#ff2f7d" opacity="0.78">
+      <rect x="794" y="235" width="68" height="215"/>
+      <rect x="886" y="170" width="68" height="280"/>
+      <rect x="978" y="285" width="68" height="165"/>
+    </g>
+    <path class="price-line" d="M770 465 895 320l74 70 124-212" fill="none" stroke="#ffbd3d" stroke-width="10" stroke-linecap="round"/>
+    <text x="762" y="530" fill="#ffbd3d" font-size="46">$$$</text>
+  </g>
+</svg>
