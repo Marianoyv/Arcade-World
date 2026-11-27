@@ -201,8 +201,28 @@
         content_language: safeText(document.documentElement.lang) || 'en',
         app_surface: desktopRuntime ? 'desktop' : 'web'
     };
+    function attributionQuery() {
+        if (desktopRuntime) return '';
+        const incoming = new URLSearchParams(window.location.search);
+        const allowed = new URLSearchParams();
+        const campaignKeys = [
+            'utm_source', 'utm_medium', 'utm_campaign', 'utm_id',
+            'utm_content', 'utm_term', 'utm_source_platform'
+        ];
+        const clickKeys = ['gclid', 'dclid', 'gbraid', 'wbraid', 'msclkid'];
+        campaignKeys.forEach((key) => {
+            const value = safeText(incoming.get(key) || '');
+            if (value) allowed.set(key, value);
+        });
+        clickKeys.forEach((key) => {
+            const value = incoming.get(key) || '';
+            if (/^[a-z0-9_.-]{1,160}$/i.test(value)) allowed.set(key, value);
+        });
+        const query = allowed.toString();
+        return query ? `?${query}` : '';
+    }
     const page = {
-        page_location: `${desktopRuntime ? productionOrigin.origin : window.location.origin}${pagePath}`,
+        page_location: `${desktopRuntime ? productionOrigin.origin : window.location.origin}${pagePath}${attributionQuery()}`,
         page_referrer: desktopRuntime ? '' : safeReferrer(),
         page_title: safeText(document.title) || 'Arcade World'
     };
