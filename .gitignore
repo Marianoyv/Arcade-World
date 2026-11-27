@@ -75,6 +75,7 @@ site-dist/
 analytics/
 analytics-local.json
 credentials/*.json
+data/blog-views.js
 
 # Local emulator binaries and personally dumped game images
 emulators/**/*.exe
