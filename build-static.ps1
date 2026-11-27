@@ -11,6 +11,11 @@ if ([string]::IsNullOrWhiteSpace($Destination)) {
 $destinationPath = [IO.Path]::GetFullPath($Destination).TrimEnd([IO.Path]::DirectorySeparatorChar)
 $projectPrefix = $projectRoot + [IO.Path]::DirectorySeparatorChar
 
+& node (Join-Path $projectRoot 'scripts/generate-blog-views.cjs')
+if ($LASTEXITCODE -ne 0) {
+    throw 'Could not generate blog view counts.'
+}
+
 if ($destinationPath -eq $projectRoot -or -not $destinationPath.StartsWith($projectPrefix, [StringComparison]::OrdinalIgnoreCase)) {
     throw "Static output must stay inside the project and cannot be the project root: $destinationPath"
 }

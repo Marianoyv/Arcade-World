@@ -20,7 +20,6 @@
     <meta name="twitter:title" content="Game Room | 51 Arcade and Console Games">
     <meta name="twitter:description" content="A searchable arcade and console catalog with browser and desktop launcher modes.">
     <meta name="theme-color" content="#08090d">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -38,21 +37,20 @@
 </head>
 <body>
     <nav class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="">Arcade<br>World</a>
         <a href="help.html">HELP</a>
         <a href="freeplay.html">FREEPLAY</a>
         <a href="library.html">LIBRARY</a>
         <a href="blog.html">BLOG</a>
         <a href="games.html">GAMES</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation">
-            <i class="fa fa-bars"></i>
+            <span aria-hidden="true">&#9776;</span>
         </a>
     </nav>
 
     <main>
         <section class="game-room-hero">
             <div>
-                <p class="eyebrow">Game room</p>
                 <h1>Choose your cabinet</h1>
                 <p>Search, filter and launch classic arcade sessions from one focused room.</p>
             </div>
@@ -65,7 +63,7 @@
 
         <section class="game-tools" aria-label="Game filters">
             <label class="search-box">
-                <i class="fa fa-search" aria-hidden="true"></i>
+                <span aria-hidden="true">&#128269;</span>
                 <input id="gameSearch" type="search" placeholder="Search games" autocomplete="off">
             </label>
             <select id="decadeFilter" class="tool-select" aria-label="Filter by decade">
@@ -100,7 +98,6 @@
 
         <section class="player" id="player">
             <div class="player-copy">
-                <p class="eyebrow">Live cabinet</p>
                 <h2 id="playerTitle">Choose a game</h2>
                 <p class="player-meta" id="playerMeta">External iframe mode</p>
                 <p id="playerDescription">External games may show provider ads. Games with local ROMs can run through the Arcade World EmulatorJS player instead.</p>
@@ -193,23 +190,14 @@
     <footer class="pie-pagina">
         <div class="grupo">
             <div class="box">
-                <a href="index.html"><img src="img/logo.png" alt="Insert Coin"></a>
+                <a href="index.html">Arcade World</a>
             </div>
             <div class="box sobren">
-                <h2>Sobre nosotros</h2>
+                <h2>About us</h2>
                 <p>Arcade World is a free browser arcade for quick retro sessions, favorite classics and high score chasers.</p>
             </div>
-            <div class="box">
-                <h2>Encuentranos en</h2>
-                <div class="red-social">
-                    <a href="https://www.facebook.com/" class="fa fa-facebook" aria-label="Facebook"></a>
-                    <a href="https://www.instagram.com" class="fa fa-instagram" aria-label="Instagram"></a>
-                    <a href="https://twitter.com" class="fa fa-twitter" aria-label="Twitter"></a>
-                    <a href="https://www.youtube.com/" class="fa fa-youtube" aria-label="YouTube"></a>
-                </div>
-            </div>
             <div class="box-s">
-                <small>&copy; 2026 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
+                <small>&copy; 2026 <b>Arcade World</b> - All rights reserved.</small>
             </div>
         </div>
     </footer>

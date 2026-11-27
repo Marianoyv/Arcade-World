@@ -87,13 +87,13 @@ function readingMinutes(post) {
 function nav(prefix = '') {
     return `
     <nav class="navbar" id="nav">
-        <a href="${prefix}index.html" class="logo"><img src="${prefix}img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="${prefix}index.html" class="logo"><img src="${prefix}img/coin.png" alt="">Arcade<br>World</a>
         <a href="${prefix}help.html">HELP</a>
         <a href="${prefix}freeplay.html">FREEPLAY</a>
         <a href="${prefix}library.html">LIBRARY</a>
         <a href="${prefix}blog.html">BLOG</a>
         <a href="${prefix}games.html">GAMES</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><i class="fa fa-bars"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><span aria-hidden="true">&#9776;</span></a>
     </nav>`;
 }
 
@@ -225,7 +225,6 @@ function gamePage(game, allGames) {
     <meta property="og:url" content="${siteUrl}/games/${slug}.html">
     <meta property="og:image" content="${escapeHtml(gameImage(game))}">
     <meta name="twitter:card" content="summary_large_image">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
     ${schemaTag(gameSchema)}
     ${schemaTag(faqSchema)}
     ${schemaTag(breadcrumbSchema)}
@@ -236,7 +235,6 @@ ${nav('../')}
         <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../games.html">Game Room</a> / ${escapeHtml(game.title)}</div>
         <section class="hero-detail">
             <div>
-                <p class="eyebrow">${escapeHtml(game.label)}</p>
                 <h1>${escapeHtml(game.title)}</h1>
                 <p>${escapeHtml(game.description)}</p>
                 <div class="cta-row">
@@ -368,7 +366,6 @@ function postPage(post, allPosts) {
     <meta property="article:section" content="${escapeHtml(post.category)}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="author" content="${escapeHtml(author.name)}">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
     <script type="application/ld+json">${JSON.stringify(schema)}</script>
 </head>
 <body data-article-slug="${escapeHtml(post.slug)}" data-content-type="${escapeHtml(contentType)}">
@@ -378,7 +375,6 @@ ${nav('../')}
         <article class="panel article-panel">
             <header class="article-hero">
                 <div class="article-copy">
-                    <p class="eyebrow">${escapeHtml(contentType)} · ${escapeHtml(post.category)}</p>
                     <h1>${escapeHtml(shortTitle)}</h1>
                     <p class="article-dek">${escapeHtml(post.excerpt)}</p>
                     <div class="article-meta">
@@ -419,7 +415,7 @@ ${nav('../')}
             </section>
         </article>
         <section class="link-grid related-stories" aria-label="Related stories">
-            ${related.map((item) => `<div class="link-card"><p class="eyebrow">${escapeHtml(item.category)}</p><h2>${escapeHtml(item.shortTitle || item.title)}</h2><p>${escapeHtml(item.excerpt)}</p><a href="${item.slug}.html" data-related-article="${escapeHtml(item.slug)}">Read next</a></div>`).join('\n            ')}
+            ${related.map((item) => `<div class="link-card"><h2>${escapeHtml(item.shortTitle || item.title)}</h2><p>${escapeHtml(item.excerpt)}</p><a href="${item.slug}.html" data-related-article="${escapeHtml(item.slug)}">Read next</a></div>`).join('\n            ')}
         </section>
     </main>
 ${analytics('../')}
@@ -449,14 +445,12 @@ function hubPage(file, title, description, links, type = 'CollectionPage') {
     <meta name="description" content="${escapeHtml(description)}">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="${siteUrl}/${file}">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
     <script type="application/ld+json">${JSON.stringify(schema)}</script>
 </head>
 <body>
 ${nav(prefix)}
     <main>
         <section class="panel">
-            <p class="eyebrow">Arcade World hub</p>
             <h1>${escapeHtml(title)}</h1>
             <p>${escapeHtml(description)}</p>
         </section>

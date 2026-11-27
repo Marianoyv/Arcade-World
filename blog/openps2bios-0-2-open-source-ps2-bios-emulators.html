@@ -21,33 +21,30 @@
     <meta property="article:section" content="Preservation">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="author" content="Arcade World Editorial">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"OpenPS2BIOS 0.2 Offers an Experimental Open-Source PS2 BIOS for Emulators","description":"OpenPS2BIOS 0.2 provides an MIT-licensed PS2 BIOS replacement for emulators, but current testing documents only limited menu access.","datePublished":"2026-10-19T10:10:00-03:00","dateModified":"2026-10-19T10:10:00-03:00","image":["https://arcade-world.web.app/img/blog/openps2bios-0-2-open-source-ps2-bios-emulators.png"],"author":{"@type":"Organization","name":"Arcade World Editorial","url":"https://arcade-world.web.app/about.html"},"publisher":{"@type":"Organization","name":"Arcade World","url":"https://arcade-world.web.app/about.html","logo":{"@type":"ImageObject","url":"https://arcade-world.web.app/img/logo.png"}},"mainEntityOfPage":"https://arcade-world.web.app/blog/openps2bios-0-2-open-source-ps2-bios-emulators.html","articleSection":"Preservation","keywords":["OpenPS2BIOS 0.2","PlayStation 2 emulation","PCSX2 BIOS","open-source BIOS","game preservation","Tamariba Devs"],"inLanguage":"en","isAccessibleForFree":true}</script>
 </head>
 <body data-article-slug="openps2bios-0-2-open-source-ps2-bios-emulators" data-content-type="news">
 
     <nav class="navbar" id="nav">
-        <a href="../index.html" class="logo"><img src="../img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="../index.html" class="logo"><img src="../img/coin.png" alt="">Arcade<br>World</a>
         <a href="../help.html">HELP</a>
         <a href="../freeplay.html">FREEPLAY</a>
         <a href="../library.html">LIBRARY</a>
         <a href="../blog.html">BLOG</a>
         <a href="../games.html">GAMES</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><i class="fa fa-bars"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><span aria-hidden="true">&#9776;</span></a>
     </nav>
     <main>
         <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../blog.html">Blog</a> / OpenPS2BIOS 0.2 Offers an Experimental Open-Source PS2 BIOS for Emulators</div>
         <article class="panel article-panel">
             <header class="article-hero">
                 <div class="article-copy">
-                    <p class="eyebrow">news · Preservation</p>
                     <h1>OpenPS2BIOS 0.2 Arrives for Emulators</h1>
                     <p class="article-dek">OpenPS2BIOS 0.2 provides an MIT-licensed PS2 BIOS replacement for emulators, but current testing documents only limited menu access.</p>
                     <div class="article-meta">
                         <span>By <a href="https://arcade-world.web.app/about.html">Arcade World Editorial</a></span>
                         <time datetime="2026-10-19T10:10:00-03:00">October 19, 2026</time>
                         <span>3 min read</span>
-                        
                     </div>
                 </div>
                 <figure class="article-visual preservation">
@@ -73,25 +70,21 @@
                 <h2>What happened</h2>
                 <p>Tamariba Devs released OpenPS2BIOS 0.1 on October 16 and version 0.2 on October 17. The project is an experimental, MIT-licensed replacement PlayStation 2 BIOS made for emulators and tested with PCSX2. Its repository says the downloadable 4 MiB ROM image includes original EE and IOP kernels and an original boot screen, with no Sony firmware included. Independent reports from GenerationAmiga and Retro Gamer confirmed the release on October 18.</p>
                 <p>Version 0.2 fixes the loader priority used to start IOP module entry points. The developer verified that the US version of Gran Turismo 4 reaches its memory-card prompt with both fast and full boot in PCSX2 2.9.94. That is a narrow startup result: the release notes explicitly say gameplay has not been verified.</p>
-                
             </section>
             <section class="article-section">
                 <h2>What works — and what does not</h2>
                 <p>The official compatibility table currently contains 38 game and disc entries, including Final Fantasy X International, God of War, Grand Theft Auto: San Andreas, Persona 3 FES and Shadow of the Colossus. Every entry has the same status: reaches main menu. The maintainers warn that this does not establish working gameplay, controller input, audio or saving, and separate discs or patched editions can count as separate entries.</p>
                 <p>OpenPS2BIOS also lacks major system functions. There is no PS2 system menu, memory-card browser, clock or language settings, and it does not support original PlayStation discs, audio CDs or DVD video. Some system calls and encrypted KELF modules remain unsupported. The project is designed only for emulators and will not initialize real console hardware; its maintainers warn users not to flash or install it on a PlayStation 2.</p>
-                
             </section>
             <section class="article-section">
                 <h2>The Arcade World take</h2>
                 <p>The important achievement is not that 38 entries are suddenly ready for full play. They are not. It is that an independently implemented BIOS can already take recognizable PS2 software through part of the boot process without bundling Sony firmware. If compatibility grows, that could make preservation setups easier to reproduce and reduce dependence on aging consoles solely for firmware extraction.</p>
                 <p>This is still a proof of direction rather than a drop-in answer. PCSX2&#39;s public setup documentation continues to instruct users to dump proprietary BIOS files from their own consoles and, at the time of reporting, says no open-source alternative exists. PCSX2 has not announced official OpenPS2BIOS support. The OpenPS2BIOS team also says calling its development process strictly clean-room would overstate it, so players should not turn an engineering milestone into broader legal or compatibility claims the project does not make.</p>
-                
             </section>
             <section class="article-section">
                 <h2>What players should do next</h2>
                 <p>Players who want reliable PS2 emulation should keep using a BIOS dumped from hardware they own and follow PCSX2&#39;s official setup guide. Anyone testing OpenPS2BIOS should download the 0.2 image only from the project&#39;s GitHub release, verify the published SHA-256 checksum, keep it separate from a working configuration and use legitimate game discs or personal dumps. Do not install the image on original PS2 hardware.</p>
                 <p>Useful testing means going beyond a title screen. The maintainers ask reports to include the game title, region, serial, disc number, OpenPS2BIOS build, emulator version, settings, reproduction steps and results for input, audio, saving and gameplay. The next meaningful milestone is not a larger boot list alone, but independently repeatable play sessions and formal integration guidance from emulator projects.</p>
-                
             </section>
             <section class="article-tags" aria-label="Article topics"><h2>Topics</h2><p><span>OpenPS2BIOS 0.2</span><span>PlayStation 2 emulation</span><span>PCSX2 BIOS</span><span>open-source BIOS</span><span>game preservation</span><span>Tamariba Devs</span></p></section>
             <section class="article-sources"><h2>Sources and further reading</h2>
@@ -109,9 +102,9 @@
             </section>
         </article>
         <section class="link-grid related-stories" aria-label="Related stories">
-            <div class="link-card"><p class="eyebrow">Preservation</p><h2>Riders Republic Gets Offline Mode December 9</h2><p>Riders Republic will add an offline single-player mode to every platform on December 9, the same day Ubisoft launches the game on Switch 2.</p><a href="riders-republic-offline-mode-switch-2-december-9.html" data-related-article="riders-republic-offline-mode-switch-2-december-9">Read next</a></div>
-            <div class="link-card"><p class="eyebrow">Preservation</p><h2>Ultimechs Multiplayer Ends October 20</h2><p>Ultimechs will lose online multiplayer and leave VR stores on October 20, while its single-player mode remains available to existing owners.</p><a href="ultimechs-multiplayer-ends-october-20.html" data-related-article="ultimechs-multiplayer-ends-october-20">Read next</a></div>
-            <div class="link-card"><p class="eyebrow">Preservation</p><h2>Lufia I &amp; II: The Sinistrals Saga Brings Both SNES RPGs to Modern Platforms in 2027</h2><p>Taito&#39;s Lufia I &amp; II collection is coming to PS5, Switch 2, Switch, and Steam in 2027, preserving the original pixel art with new play features.</p><a href="lufia-i-ii-sinistrals-saga-2027.html" data-related-article="lufia-i-ii-sinistrals-saga-2027">Read next</a></div>
+            <div class="link-card"><h2>Riders Republic Gets Offline Mode December 9</h2><p>Riders Republic will add an offline single-player mode to every platform on December 9, the same day Ubisoft launches the game on Switch 2.</p><a href="riders-republic-offline-mode-switch-2-december-9.html" data-related-article="riders-republic-offline-mode-switch-2-december-9">Read next</a></div>
+            <div class="link-card"><h2>Ultimechs Multiplayer Ends October 20</h2><p>Ultimechs will lose online multiplayer and leave VR stores on October 20, while its single-player mode remains available to existing owners.</p><a href="ultimechs-multiplayer-ends-october-20.html" data-related-article="ultimechs-multiplayer-ends-october-20">Read next</a></div>
+            <div class="link-card"><h2>Lufia I &amp; II: The Sinistrals Saga Brings Both SNES RPGs to Modern Platforms in 2027</h2><p>Taito&#39;s Lufia I &amp; II collection is coming to PS5, Switch 2, Switch, and Steam in 2027, preserving the original pixel art with new play features.</p><a href="lufia-i-ii-sinistrals-saga-2027.html" data-related-article="lufia-i-ii-sinistrals-saga-2027">Read next</a></div>
         </section>
     </main>
 

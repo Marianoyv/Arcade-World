@@ -18,7 +18,6 @@
     <meta property="og:image" content="https://arcade-world.web.app/img/gamesbg.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#08090d">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -31,20 +30,19 @@
 </head>
 <body>
     <nav class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="">Arcade<br>World</a>
         <a href="help.html">HELP</a>
         <a href="freeplay.html">FREEPLAY</a>
         <a href="library.html">LIBRARY</a>
         <a href="blog.html">BLOG</a>
         <a href="games.html">GAMES</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><i class="fa fa-bars"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation"><span aria-hidden="true">&#9776;</span></a>
     </nav>
 
     <main>
         <div class="breadcrumb"><a href="index.html">Home</a> / My Library</div>
         <section class="hero-detail library-hero">
             <div>
-                <p class="eyebrow">Local player profile</p>
                 <h1>My Arcade Library</h1>
                 <p>Favorites, recent sessions and local imports live in this browser or desktop app. Arcade World stores only metadata here, not your ROM files.</p>
                 <div class="cta-row">
@@ -62,7 +60,6 @@
 
         <section class="library-section">
             <div class="section-title">
-                <p class="eyebrow">Saved cabinets</p>
                 <h2>Favorites</h2>
             </div>
             <div class="library-grid" id="favoriteLibrary"></div>
@@ -70,7 +67,6 @@
 
         <section class="library-section">
             <div class="section-title">
-                <p class="eyebrow">Continue playing</p>
                 <h2>Recent sessions</h2>
             </div>
             <div class="library-grid" id="recentLibrary"></div>
@@ -78,7 +74,6 @@
 
         <section class="library-section">
             <div class="section-title">
-                <p class="eyebrow">Local-only history</p>
                 <h2>Imported ROMs</h2>
             </div>
             <div class="library-grid" id="importLibrary"></div>

@@ -725,7 +725,7 @@ window.ARCADE_GAMES = [
     "emulator": "pcsx2",
     "emulatorUrl": "https://pcsx2.net/downloads/",
     "cover": "/img/games/mercenaries-2-world-in-flames.png",
-    "description": "Explora una Venezuela ficticia en guerra, acepta contratos, roba vehículos y desata destrucción a gran escala en un mundo abierto.",
+    "description": "Take on contracts, steal vehicles and blow up enemy strongholds in a fictional, war-torn Venezuela.",
     "romPath": "roms/ps2/Mercenaries 2 - World in Flames.iso",
     "status": "desktop-only",
     "category": [

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/css/blog.css?v=2">
     <link rel="alternate" type="application/rss+xml" title="Arcade World News and Guides" href="/feed.xml">
     <link rel="icon" type="image/png" href="img/favcoin.png">
     <title>Arcade World News | Gaming News and Retro Guides</title>
@@ -24,27 +24,27 @@
     <meta name="twitter:image" content="https://arcade-world.web.app/img/arcade-world-cover.png">
     <meta name="twitter:image:alt" content="Neon-lit gaming desk with an arcade stick, controller and golden arcade tokens">
     <meta name="theme-color" content="#08090d">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="">Arcade<br>World</a>
         <a href="help.html">HELP</a>
         <a href="freeplay.html">FREEPLAY</a>
         <a href="library.html">LIBRARY</a>
         <a href="blog.html">BLOG</a>
         <a href="games.html">GAMES</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation">
-            <i class="fa fa-bars"></i>
+            <span aria-hidden="true">&#9776;</span>
         </a>
     </nav>
 
     <main>
         <section class="blog-hero">
-            <p class="eyebrow">Arcade World newsroom</p>
-            <h1>Gaming news that gets to the point</h1>
-            <p>Confirmed news, useful context and a clear answer to the question that matters: what changes for players?</p>
+            <h1>Arcade World<span>News</span></h1>
+            <p>Gaming news, sharp analysis and stories worth your time.</p>
         </section>
+
+        <section class="top-stories" id="topStories" aria-label="Featured stories"></section>
 
         <section class="news-tools" aria-label="Filter stories">
             <label class="news-search">
@@ -58,12 +58,13 @@
             <p id="postCount" aria-live="polite"></p>
         </section>
 
-        <section class="post-grid" id="postGrid"></section>
+        <div class="latest-heading"><h2 id="latestHeading">More stories</h2><span id="latestCount"></span></div>
+        <section class="post-grid" id="postGrid" aria-labelledby="latestHeading"></section>
         <p class="news-empty" id="postEmpty" hidden>No stories match those filters.</p>
         <div class="load-more-wrap"><button id="postLoadMore" class="load-more" type="button">Load more stories</button></div>
 
-        <section class="seo-post-links" aria-label="All Arcade World stories">
-            <h2>All stories</h2>
+        <details class="seo-post-links">
+            <summary>Complete archive</summary>
             <div>
                 <!-- SEO_POST_LINKS_START -->
                 <a href="blog/gta-6-launch-player-reactions-performance.html">GTA 6 Launch Reactions Are Strong, but 30 FPS Performance Divides Players</a>
@@ -137,27 +138,28 @@
                 <a href="blog/gaming-hardware-shortages-and-player-value.html">Gaming Hardware Shortages Are Changing How Players Think About Value</a>
 <!-- SEO_POST_LINKS_END -->
             </div>
-        </section>
+        </details>
     </main>
 
     <footer class="pie-pagina">
         <div class="grupo">
             <div class="box">
-                <a href="index.html"><img src="img/logo.png" alt="Insert Coin"></a>
+                <a href="index.html">Arcade World</a>
             </div>
             <div class="box sobren">
-                <h2>Sobre nosotros</h2>
+                <h2>About us</h2>
                 <p>Arcade World is a free browser arcade for quick retro sessions, favorite classics and high score chasers.</p>
-                <p><a href="editorial-policy.html">Editorial policy</a> · <a href="contact.html">Corrections</a> · <a href="feed.xml">RSS</a></p>
+                <p><a href="editorial-policy.html">Editorial policy</a> � <a href="contact.html">Corrections</a> � <a href="feed.xml">RSS</a></p>
             </div>
             <div class="box-s">
-                <small>&copy; 2026 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
+                <small>&copy; 2026 <b>Arcade World</b> - All rights reserved.</small>
             </div>
         </div>
     </footer>
     <script src="data/blog-index.js"></script>
+    <script src="data/blog-views.js"></script>
     <script src="analytics-config.js"></script>
     <script src="analytics.js"></script>
-    <script src="main.js?v=8"></script>
+    <script src="main.js?v=9"></script>
 </body>
 </html>

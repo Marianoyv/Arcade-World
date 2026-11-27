@@ -565,6 +565,10 @@ if (gameFilters) {
 if (postGrid) {
     let visiblePostLimit = 12;
     let postSearchTimer;
+    const topStories = document.getElementById('topStories');
+    const latestHeading = document.getElementById('latestHeading');
+    const latestCount = document.getElementById('latestCount');
+    const blogViews = window.ARCADE_BLOG_VIEWS || { views: {} };
 
     const escapeBlogMarkup = (value) => String(value || '')
         .replace(/&/g, '&amp;')
@@ -594,26 +598,50 @@ if (postGrid) {
             const searchable = `${post.title} ${post.excerpt} ${post.category} ${post.type || ''}`.toLowerCase();
             return (category === 'all' || post.category === category) && searchable.includes(query);
         });
-        const visiblePosts = matchingPosts.slice(0, visiblePostLimit);
+        const isBrowsing = !query && category === 'all';
+        const featuredPosts = isBrowsing ? matchingPosts.slice(0, 3) : [];
+        const remainingPosts = matchingPosts.slice(featuredPosts.length);
+        const visiblePosts = remainingPosts.slice(0, visiblePostLimit);
+        const postLink = (post) => escapeBlogMarkup(post.url || `blog/${post.slug}.html`);
+        const postMeta = (post) => `
+            <span class="story-label">${escapeBlogMarkup(post.type || 'guide')} · ${escapeBlogMarkup(post.category)}</span>
+            <time datetime="${escapeBlogMarkup(post.publishedAt || post.date)}">${escapeBlogMarkup(displayPostDate(post.publishedAt || post.date))}</time>
+            ${blogViews.views[post.slug] ? `<span class="story-views" title="Total page views through ${escapeBlogMarkup(blogViews.end)}">${Number(blogViews.views[post.slug]).toLocaleString('en-US')} ${blogViews.views[post.slug] === 1 ? 'view' : 'views'}</span>` : ''}`;
 
-        postGrid.innerHTML = visiblePosts.map((post, index) => `
-            <article class="post-card${index === 0 && !query && category === 'all' ? ' lead-story' : ''}">
-                <img src="${escapeBlogMarkup(post.image)}" alt="${escapeBlogMarkup(post.imageAlt || `${post.title} visual`)}" loading="${index === 0 ? 'eager' : 'lazy'}">
-                <div>
-                    <span class="story-label">${escapeBlogMarkup(post.type || 'guide')} · ${escapeBlogMarkup(post.category)}</span>
-                    <time datetime="${escapeBlogMarkup(post.publishedAt || post.date)}">${escapeBlogMarkup(displayPostDate(post.publishedAt || post.date))}</time>
-                    <h2>${escapeBlogMarkup(post.shortTitle || post.title)}</h2>
+        if (topStories) {
+            topStories.hidden = featuredPosts.length === 0;
+            topStories.className = `top-stories top-stories-${featuredPosts.length}`;
+            topStories.innerHTML = featuredPosts.map((post, index) => `
+                <article class="top-story">
+                    <img src="${escapeBlogMarkup(post.image)}" alt="" loading="${index === 0 ? 'eager' : 'lazy'}" ${index === 0 ? 'fetchpriority="high"' : ''}>
+                    <div class="top-story-content">
+                        <div class="story-meta">${postMeta(post)}</div>
+                        <h2><a href="${postLink(post)}" data-post-title="${escapeBlogMarkup(post.title)}" data-post-type="${escapeBlogMarkup(post.type || 'guide')}">${escapeBlogMarkup(post.shortTitle || post.title)}</a></h2>
+                        ${index === 0 ? `<p>${escapeBlogMarkup(post.excerpt)}</p>` : ''}
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        postGrid.innerHTML = visiblePosts.map((post) => `
+            <article class="post-card">
+                <img src="${escapeBlogMarkup(post.image)}" alt="" loading="lazy">
+                <div class="post-card-content">
+                    <div class="story-meta">${postMeta(post)}</div>
+                    <h3><a href="${postLink(post)}" data-post-title="${escapeBlogMarkup(post.title)}" data-post-type="${escapeBlogMarkup(post.type || 'guide')}">${escapeBlogMarkup(post.shortTitle || post.title)}</a></h3>
                     <p>${escapeBlogMarkup(post.excerpt)}</p>
-                    <a href="${escapeBlogMarkup(post.url || `blog/${post.slug}.html`)}" data-post-title="${escapeBlogMarkup(post.title)}" data-post-type="${escapeBlogMarkup(post.type || 'guide')}">${post.type === 'news' ? 'Read news' : 'Read story'}</a>
                 </div>
             </article>
         `).join('');
 
+        if (latestHeading) latestHeading.textContent = isBrowsing ? 'More stories' : 'Stories';
+        if (latestCount) latestCount.textContent = `${remainingPosts.length} ${remainingPosts.length === 1 ? 'story' : 'stories'}`;
+
         if (postCount) postCount.textContent = `${matchingPosts.length} ${matchingPosts.length === 1 ? 'story' : 'stories'}`;
         if (postEmpty) postEmpty.hidden = matchingPosts.length !== 0;
-        if (postLoadMore) postLoadMore.hidden = matchingPosts.length <= visiblePostLimit;
+        if (postLoadMore) postLoadMore.hidden = remainingPosts.length <= visiblePostLimit;
 
-        postGrid.querySelectorAll('a[data-post-title]').forEach((link) => {
+        document.querySelectorAll('#topStories a[data-post-title], #postGrid a[data-post-title]').forEach((link) => {
             link.addEventListener('click', () => {
                 window.awTrack?.('blog_post_open', {
                     post_title: link.dataset.postTitle,

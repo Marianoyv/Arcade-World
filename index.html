@@ -26,7 +26,6 @@
     <meta name="twitter:image" content="https://arcade-world.web.app/img/arcade-world-cover.png">
     <meta name="twitter:image:alt" content="Neon-lit gaming desk with an arcade stick, controller and golden arcade tokens">
     <meta name="theme-color" content="#08090d">
-    <script src="https://kit.fontawesome.com/70dc13288a.js" crossorigin="anonymous"></script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -44,14 +43,14 @@
 </head>
 <body>
     <nav class="navbar" id="nav">
-        <a href="index.html" class="logo"><img src="img/coin.png" alt="Insert Coin logo">Insert<br>Coin</a>
+        <a href="index.html" class="logo"><img src="img/coin.png" alt="">Arcade<br>World</a>
         <a href="help.html">HELP</a>
         <a href="freeplay.html">FREEPLAY</a>
         <a href="library.html">LIBRARY</a>
         <a href="blog.html">BLOG</a>
         <a href="games.html">GAMES</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunc()" aria-label="Open navigation">
-            <i class="fa fa-bars"></i>
+            <span aria-hidden="true">&#9776;</span>
         </a>
     </nav>
 
@@ -66,16 +65,14 @@
             </div>
             <div class="hero-overlay"></div>
             <div class="hero-content">
-                <p class="eyebrow">Browser arcade room</p>
                 <h1>Arcade World</h1>
                 <p class="hero-copy">Jump into retro classics, chase high scores and keep your favorite cabinets one click away.</p>
                 <div class="hero-actions">
-                    <a class="btn primary" href="games.html">Play now</a>
+                    <a class="btn primary" href="#play-88-games">Play 88 Games</a>
                     <a class="btn secondary" href="games.html">Explore games</a>
                 </div>
             </div>
             <aside class="hero-panel" aria-label="Arcade catalog stats">
-                <span>Arcade catalog</span>
                 <strong id="heroGameCount">51 Games</strong>
                 <small id="heroSystemCount" title="NES, SNES, Game Boy, Game Boy Advance, Genesis / Mega Drive, Arcade / MAME 2003 and PlayStation 2 / PCSX2">7 systems supported</small>
             </aside>
@@ -84,14 +81,12 @@
         <section class="featured" id="featured">
             <div class="section-heading">
                 <div>
-                    <p class="eyebrow">Games in rotation</p>
                     <h2>Your next run is already loading</h2>
                 </div>
                 <a id="homeCategoryLink" href="games.html">Browse all games</a>
             </div>
 
             <div class="category-selector">
-                <span>Pick a lane</span>
                 <div class="category-bar" id="homeGameCategories" aria-label="Choose a game category"></div>
             </div>
 
@@ -103,9 +98,9 @@
                         <span class="rotation-progress" aria-hidden="true"><span id="homeRotationProgress"></span></span>
                     </div>
                     <div class="showcase-controls" aria-label="Game rotation controls">
-                        <button id="homeGamesPrev" type="button" aria-label="Previous games"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-                        <button id="homeGamesPause" type="button" aria-label="Pause game rotation"><i class="fa fa-pause" aria-hidden="true"></i></button>
-                        <button id="homeGamesNext" type="button" aria-label="Next games"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                        <button id="homeGamesPrev" type="button" aria-label="Previous games"><span aria-hidden="true">&larr;</span></button>
+                        <button id="homeGamesPause" type="button" aria-label="Pause game rotation"><span aria-hidden="true">&#9208;</span></button>
+                        <button id="homeGamesNext" type="button" aria-label="Next games"><span aria-hidden="true">&rarr;</span></button>
                     </div>
                 </div>
             </div>
@@ -115,7 +110,6 @@
         <section class="how-it-works" id="how-it-works">
             <div class="section-heading how-heading">
                 <div>
-                    <p class="eyebrow">How it works</p>
                     <h2>Three moves. Then you are playing.</h2>
                 </div>
                 <a href="help.html">Need more help?</a>
@@ -124,35 +118,34 @@
             <div class="how-steps">
                 <article class="how-step">
                     <span class="step-number">01</span>
-                    <span class="step-icon" aria-hidden="true"><i class="fa fa-gamepad"></i></span>
+                    <span class="step-icon" aria-hidden="true"><span aria-hidden="true">&#127918;</span></span>
                     <h3>Pick a game</h3>
                     <p>Browse the Game Room or jump straight into a category.</p>
-                    <a href="games.html">Open Game Room <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="games.html">Open Game Room <span aria-hidden="true">&rarr;</span></a>
                 </article>
 
                 <article class="how-step">
                     <span class="step-number">02</span>
-                    <span class="step-icon" aria-hidden="true"><i class="fa fa-play"></i></span>
+                    <span class="step-icon" aria-hidden="true"><span aria-hidden="true">&#9654;</span></span>
                     <h3>Press play</h3>
                     <p>Launch a ready cabinet or load a game from your device.</p>
-                    <a href="freeplay.html">See play options <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="freeplay.html">See play options <span aria-hidden="true">&rarr;</span></a>
                 </article>
 
                 <article class="how-step">
                     <span class="step-number">03</span>
-                    <span class="step-icon" aria-hidden="true"><i class="fa fa-star"></i></span>
+                    <span class="step-icon" aria-hidden="true"><span aria-hidden="true">&#9733;</span></span>
                     <h3>Keep your favorites</h3>
                     <p>Save games and find your recent sessions in one place.</p>
-                    <a href="library.html">Open My Library <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="library.html">Open My Library <span aria-hidden="true">&rarr;</span></a>
                 </article>
             </div>
 
             <p class="how-note"><strong>No account needed.</strong> Your favorites stay on this device.</p>
         </section>
 
-        <section class="play-zone">
+        <section class="play-zone" id="play-88-games">
             <div class="section-heading">
-                <p class="eyebrow">Instant play</p>
                 <h2>One cabinet is always powered on</h2>
             </div>
             <div class="cabinet">
@@ -160,8 +153,7 @@
                     <iframe src="https://www.retrogames.cc/embed/7642-88-games.html" title="88 Games arcade emulator" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
                 </div>
                 <div class="cabinet-info">
-                    <span>Now playing</span>
-                    <h3>88 Games</h3>
+                                        <h3>88 Games</h3>
                     <p>Track and field arcade action directly in the browser. Use the full game room for more cabinets.</p>
                     <a class="btn primary" href="games.html">More games</a>
                 </div>
@@ -172,23 +164,14 @@
     <footer class="pie-pagina">
         <div class="grupo">
             <div class="box">
-                <a href="index.html"><img src="img/logo.png" alt="Insert Coin"></a>
+                <a href="index.html">Arcade World</a>
             </div>
             <div class="box sobren">
-                <h2>Sobre nosotros</h2>
+                <h2>About us</h2>
                 <p>Arcade World is a free browser arcade for quick retro sessions, favorite classics and high score chasers.</p>
             </div>
-            <div class="box">
-                <h2>Encuentranos en</h2>
-                <div class="red-social">
-                    <a href="https://www.facebook.com/" class="fa fa-facebook" aria-label="Facebook"></a>
-                    <a href="https://www.instagram.com" class="fa fa-instagram" aria-label="Instagram"></a>
-                    <a href="https://twitter.com" class="fa fa-twitter" aria-label="Twitter"></a>
-                    <a href="https://www.youtube.com/" class="fa fa-youtube" aria-label="YouTube"></a>
-                </div>
-            </div>
             <div class="box-s">
-                <small>&copy; 2026 <b>Insert Coin</b> - Todos Los Derechos Reservados</small>
+                <small>&copy; 2026 <b>Arcade World</b> - All rights reserved.</small>
             </div>
         </div>
     </footer>

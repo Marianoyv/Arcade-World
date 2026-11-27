@@ -74,7 +74,7 @@ if (homeTrack && homeCategories && homeGames.length) {
                     <p>${game.description}</p>
                     <div class="rotating-card-footer">
                         <small>${game.publisher}</small>
-                        <a href="games/${slug}.html">View game <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a href="games/${slug}.html">View game <span aria-hidden="true">&rarr;</span></a>
                     </div>
                 </div>
             </article>`;
@@ -147,7 +147,7 @@ if (homeTrack && homeCategories && homeGames.length) {
             return;
         }
 
-        homePause.innerHTML = `<i class="fa fa-${isPaused ? 'play' : 'pause'}" aria-hidden="true"></i>`;
+        homePause.innerHTML = `<span aria-hidden="true">${isPaused ? "&#9654;" : "&#9208;"}</span>`;
         homePause.setAttribute('aria-label', `${isPaused ? 'Resume' : 'Pause'} game rotation`);
         homePause.classList.toggle('active', isPaused);
     }
