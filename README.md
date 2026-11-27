@@ -2,6 +2,8 @@
 
 Arcade World is a browser game room with gaming news, retro guides, and an optional desktop launcher.
 
+Automated work starts with [AGENTS.md](AGENTS.md) and the short [operating routes](OPERATIONS.md). Editorial decisions follow [EDITORIAL_PLAYBOOK.md](EDITORIAL_PLAYBOOK.md); measurement follows [ANALYTICS.md](ANALYTICS.md).
+
 ## Local development
 
 Serve the project directory with `npm run serve`, then open `http://localhost:8000/`. The news portal is at `/blog.html`.
