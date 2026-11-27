@@ -6,7 +6,10 @@ const reportPath = path.join(root, 'analytics', 'lifetime', 'ga4_pages.csv');
 const outputPath = path.join(root, 'data', 'blog-views.js');
 
 if (!fs.existsSync(reportPath)) {
-    console.log('No lifetime analytics export available; keeping the existing blog view snapshot.');
+    if (!fs.existsSync(outputPath)) {
+        fs.writeFileSync(outputPath, 'window.ARCADE_BLOG_VIEWS = {"start":null,"end":null,"views":{}};\n');
+    }
+    console.log('No lifetime analytics report available; keeping the existing blog view snapshot.');
     process.exit(0);
 }
 
