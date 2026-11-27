@@ -8,7 +8,7 @@ if (-not $?) {
 }
 
 $npx = (Get-Command npx.cmd -ErrorAction Stop).Source
-& $npx firebase deploy --only hosting
+& $npx firebase deploy --only hosting --project arcade-world
 if ($LASTEXITCODE -ne 0) {
     throw "Firebase deployment failed with exit code $LASTEXITCODE"
 }
