@@ -140,6 +140,17 @@ test('a new production visitor starts one privacy-safe GA4 page view', () => {
     assert.equal(configuration[2].page_referrer, 'https://search.example/');
 });
 
+test('campaign and ad click attribution reach GA4 without unrelated query data', () => {
+    const environment = browser({ query: '?utm_source=newsletter&utm_medium=email&utm_campaign=launch&gclid=abc.123&email=private%40example.com' });
+    const pageView = events(environment).find((call) => call[1] === 'page_view')[2];
+    assert.match(pageView.page_location, /utm_source=newsletter/);
+    assert.match(pageView.page_location, /utm_medium=email/);
+    assert.match(pageView.page_location, /gclid=abc.123/);
+    assert.doesNotMatch(pageView.page_location, /private|email=/);
+    const untagged = browser({ query: '?email=private%40example.com' });
+    assert.equal(events(untagged)[0][2].page_location, 'https://arcade-world.web.app/games.html');
+});
+
 test('preview traffic stays isolated while local debug queues calls without collection', () => {
     const preview = browser({ origin: 'http://127.0.0.1:8000' });
     assert.equal(preview.window.ArcadeAnalytics.isMeasuring(), false);
